@@ -19,8 +19,8 @@ limitations under the License.
 package resource
 
 import (
-	internalinterfaces "k8s.io/client-go/informers/internalinterfaces"
-	v1alpha1 "k8s.io/client-go/informers/resource/v1alpha1"
+	internalinterfaces "github.com/spotmaxtech/k8s-client-go-v0260/informers/internalinterfaces"
+	v1alpha1 "github.com/spotmaxtech/k8s-client-go-v0260/informers/resource/v1alpha1"
 )
 
 // Interface provides access to each of this group's versions.

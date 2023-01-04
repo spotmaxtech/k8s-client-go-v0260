@@ -21,15 +21,15 @@ import (
 	"math/rand"
 	"time"
 
+	restclient "github.com/spotmaxtech/k8s-client-go-v0260/rest"
+	"github.com/spotmaxtech/k8s-client-go-v0260/tools/record/util"
+	ref "github.com/spotmaxtech/k8s-client-go-v0260/tools/reference"
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
 	"k8s.io/apimachinery/pkg/watch"
-	restclient "k8s.io/client-go/rest"
-	"k8s.io/client-go/tools/record/util"
-	ref "k8s.io/client-go/tools/reference"
 	"k8s.io/klog/v2"
 	"k8s.io/utils/clock"
 )
@@ -136,14 +136,14 @@ type EventBroadcaster interface {
 	Shutdown()
 }
 
-// EventRecorderAdapter is a wrapper around a "k8s.io/client-go/tools/record".EventRecorder
-// implementing the new "k8s.io/client-go/tools/events".EventRecorder interface.
+// EventRecorderAdapter is a wrapper around a "github.com/spotmaxtech/k8s-client-go-v0260/tools/record".EventRecorder
+// implementing the new "github.com/spotmaxtech/k8s-client-go-v0260/tools/events".EventRecorder interface.
 type EventRecorderAdapter struct {
 	recorder EventRecorder
 }
 
 // NewEventRecorderAdapter returns an adapter implementing the new
-// "k8s.io/client-go/tools/events".EventRecorder interface.
+// "github.com/spotmaxtech/k8s-client-go-v0260/tools/events".EventRecorder interface.
 func NewEventRecorderAdapter(recorder EventRecorder) *EventRecorderAdapter {
 	return &EventRecorderAdapter{
 		recorder: recorder,

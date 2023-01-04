@@ -21,14 +21,14 @@ import (
 	"sync"
 	"time"
 
+	"github.com/spotmaxtech/k8s-client-go-v0260/informers"
+	"github.com/spotmaxtech/k8s-client-go-v0260/metadata"
+	"github.com/spotmaxtech/k8s-client-go-v0260/metadata/metadatalister"
+	"github.com/spotmaxtech/k8s-client-go-v0260/tools/cache"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/apimachinery/pkg/watch"
-	"k8s.io/client-go/informers"
-	"k8s.io/client-go/metadata"
-	"k8s.io/client-go/metadata/metadatalister"
-	"k8s.io/client-go/tools/cache"
 )
 
 // NewSharedInformerFactory constructs a new instance of metadataSharedInformerFactory for all namespaces.

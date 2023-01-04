@@ -22,8 +22,8 @@ import (
 	"net/http"
 
 	v1beta2 "k8s.io/api/apps/v1beta2"
-	"k8s.io/client-go/kubernetes/scheme"
-	rest "k8s.io/client-go/rest"
+	"github.com/spotmaxtech/k8s-client-go-v0260/kubernetes/scheme"
+	rest "github.com/spotmaxtech/k8s-client-go-v0260/rest"
 )
 
 type AppsV1beta2Interface interface {

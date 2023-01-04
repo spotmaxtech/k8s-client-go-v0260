@@ -67,7 +67,7 @@ import (
 	"encoding/json"
 	"os"
 
-	restclient "k8s.io/client-go/rest"
+	restclient "github.com/spotmaxtech/k8s-client-go-v0260/rest"
 )
 
 // Info holds Kubernetes API authorization config.  It is intended

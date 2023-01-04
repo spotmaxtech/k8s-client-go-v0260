@@ -36,6 +36,11 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
+	"github.com/spotmaxtech/k8s-client-go-v0260/kubernetes/scheme"
+	restclientwatch "github.com/spotmaxtech/k8s-client-go-v0260/rest/watch"
+	"github.com/spotmaxtech/k8s-client-go-v0260/tools/metrics"
+	"github.com/spotmaxtech/k8s-client-go-v0260/util/flowcontrol"
+	utiltesting "github.com/spotmaxtech/k8s-client-go-v0260/util/testing"
 	v1 "k8s.io/api/core/v1"
 	apiequality "k8s.io/apimachinery/pkg/api/equality"
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
@@ -48,11 +53,6 @@ import (
 	"k8s.io/apimachinery/pkg/util/intstr"
 	utilnet "k8s.io/apimachinery/pkg/util/net"
 	"k8s.io/apimachinery/pkg/watch"
-	"k8s.io/client-go/kubernetes/scheme"
-	restclientwatch "k8s.io/client-go/rest/watch"
-	"k8s.io/client-go/tools/metrics"
-	"k8s.io/client-go/util/flowcontrol"
-	utiltesting "k8s.io/client-go/util/testing"
 	"k8s.io/klog/v2"
 	testingclock "k8s.io/utils/clock/testing"
 )

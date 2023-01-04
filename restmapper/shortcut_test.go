@@ -22,15 +22,15 @@ import (
 	openapi_v2 "github.com/google/gnostic/openapiv2"
 	"github.com/google/go-cmp/cmp"
 
+	"github.com/spotmaxtech/k8s-client-go-v0260/discovery"
+	"github.com/spotmaxtech/k8s-client-go-v0260/openapi"
+	restclient "github.com/spotmaxtech/k8s-client-go-v0260/rest"
+	"github.com/spotmaxtech/k8s-client-go-v0260/rest/fake"
 	"k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/api/meta"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/apimachinery/pkg/version"
-	"k8s.io/client-go/discovery"
-	"k8s.io/client-go/openapi"
-	restclient "k8s.io/client-go/rest"
-	"k8s.io/client-go/rest/fake"
 )
 
 func TestReplaceAliases(t *testing.T) {

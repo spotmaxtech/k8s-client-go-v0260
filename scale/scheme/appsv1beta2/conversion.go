@@ -19,10 +19,10 @@ package appsv1beta2
 import (
 	"fmt"
 
+	scheme "github.com/spotmaxtech/k8s-client-go-v0260/scale/scheme"
 	v1beta2 "k8s.io/api/apps/v1beta2"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/conversion"
-	scheme "k8s.io/client-go/scale/scheme"
 )
 
 func Convert_scheme_ScaleStatus_To_v1beta2_ScaleStatus(in *scheme.ScaleStatus, out *v1beta2.ScaleStatus, s conversion.Scope) error {

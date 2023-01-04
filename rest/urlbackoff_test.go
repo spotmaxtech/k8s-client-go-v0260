@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/client-go/util/flowcontrol"
+	"github.com/spotmaxtech/k8s-client-go-v0260/util/flowcontrol"
 )
 
 func parse(raw string) *url.URL {

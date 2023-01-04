@@ -23,7 +23,7 @@ import (
 
 	"k8s.io/klog/v2"
 
-	clientcmdapi "k8s.io/client-go/tools/clientcmd/api"
+	clientcmdapi "github.com/spotmaxtech/k8s-client-go-v0260/tools/clientcmd/api"
 )
 
 type AuthProvider interface {

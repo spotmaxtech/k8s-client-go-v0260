@@ -25,6 +25,10 @@ import (
 	"reflect"
 	"time"
 
+	clientset "github.com/spotmaxtech/k8s-client-go-v0260/kubernetes"
+	"github.com/spotmaxtech/k8s-client-go-v0260/tools/cache"
+	watchtools "github.com/spotmaxtech/k8s-client-go-v0260/tools/watch"
+	certutil "github.com/spotmaxtech/k8s-client-go-v0260/util/cert"
 	certificatesv1 "k8s.io/api/certificates/v1"
 	certificatesv1beta1 "k8s.io/api/certificates/v1beta1"
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
@@ -34,10 +38,6 @@ import (
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/apimachinery/pkg/watch"
-	clientset "k8s.io/client-go/kubernetes"
-	"k8s.io/client-go/tools/cache"
-	watchtools "k8s.io/client-go/tools/watch"
-	certutil "k8s.io/client-go/util/cert"
 	"k8s.io/klog/v2"
 	"k8s.io/utils/pointer"
 )

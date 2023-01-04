@@ -20,7 +20,7 @@ import (
 	"context"
 	"encoding/json"
 
-	"k8s.io/client-go/rest"
+	"github.com/spotmaxtech/k8s-client-go-v0260/rest"
 	"k8s.io/kube-openapi/pkg/handler3"
 )
 

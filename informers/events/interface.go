@@ -19,9 +19,9 @@ limitations under the License.
 package events
 
 import (
-	v1 "k8s.io/client-go/informers/events/v1"
-	v1beta1 "k8s.io/client-go/informers/events/v1beta1"
-	internalinterfaces "k8s.io/client-go/informers/internalinterfaces"
+	v1 "github.com/spotmaxtech/k8s-client-go-v0260/informers/events/v1"
+	v1beta1 "github.com/spotmaxtech/k8s-client-go-v0260/informers/events/v1beta1"
+	internalinterfaces "github.com/spotmaxtech/k8s-client-go-v0260/informers/internalinterfaces"
 )
 
 // Interface provides access to each of this group's versions.

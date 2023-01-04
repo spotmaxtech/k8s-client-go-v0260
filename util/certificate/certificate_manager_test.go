@@ -27,6 +27,10 @@ import (
 	"testing"
 	"time"
 
+	clientset "github.com/spotmaxtech/k8s-client-go-v0260/kubernetes"
+	"github.com/spotmaxtech/k8s-client-go-v0260/kubernetes/fake"
+	certificatesclient "github.com/spotmaxtech/k8s-client-go-v0260/kubernetes/typed/certificates/v1beta1"
+	clienttesting "github.com/spotmaxtech/k8s-client-go-v0260/testing"
 	certificatesv1 "k8s.io/api/certificates/v1"
 	certificatesv1beta1 "k8s.io/api/certificates/v1beta1"
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
@@ -34,10 +38,6 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	watch "k8s.io/apimachinery/pkg/watch"
-	clientset "k8s.io/client-go/kubernetes"
-	"k8s.io/client-go/kubernetes/fake"
-	certificatesclient "k8s.io/client-go/kubernetes/typed/certificates/v1beta1"
-	clienttesting "k8s.io/client-go/testing"
 	netutils "k8s.io/utils/net"
 )
 

@@ -24,7 +24,7 @@ import (
 
 	"net/http"
 
-	rl "k8s.io/client-go/tools/leaderelection/resourcelock"
+	rl "github.com/spotmaxtech/k8s-client-go-v0260/tools/leaderelection/resourcelock"
 	testingclock "k8s.io/utils/clock/testing"
 )
 

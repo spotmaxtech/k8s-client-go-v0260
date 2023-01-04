@@ -24,7 +24,7 @@ import (
 	v1 "k8s.io/api/authorization/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
-	testing "k8s.io/client-go/testing"
+	testing "github.com/spotmaxtech/k8s-client-go-v0260/testing"
 )
 
 // FakeSubjectAccessReviews implements SubjectAccessReviewInterface

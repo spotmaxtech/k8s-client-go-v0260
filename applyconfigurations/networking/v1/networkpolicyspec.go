@@ -20,7 +20,7 @@ package v1
 
 import (
 	apinetworkingv1 "k8s.io/api/networking/v1"
-	v1 "k8s.io/client-go/applyconfigurations/meta/v1"
+	v1 "github.com/spotmaxtech/k8s-client-go-v0260/applyconfigurations/meta/v1"
 )
 
 // NetworkPolicySpecApplyConfiguration represents an declarative configuration of the NetworkPolicySpec type for use

@@ -32,7 +32,7 @@ import (
 	"strings"
 	"time"
 
-	"k8s.io/client-go/util/keyutil"
+	"github.com/spotmaxtech/k8s-client-go-v0260/util/keyutil"
 	netutils "k8s.io/utils/net"
 )
 

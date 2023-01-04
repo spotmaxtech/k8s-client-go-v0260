@@ -24,6 +24,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/spotmaxtech/k8s-client-go-v0260/kubernetes/fake"
+	fakeclient "github.com/spotmaxtech/k8s-client-go-v0260/testing"
+	rl "github.com/spotmaxtech/k8s-client-go-v0260/tools/leaderelection/resourcelock"
+	"github.com/spotmaxtech/k8s-client-go-v0260/tools/record"
 	coordinationv1 "k8s.io/api/coordination/v1"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/equality"
@@ -31,10 +35,6 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/util/diff"
-	"k8s.io/client-go/kubernetes/fake"
-	fakeclient "k8s.io/client-go/testing"
-	rl "k8s.io/client-go/tools/leaderelection/resourcelock"
-	"k8s.io/client-go/tools/record"
 	"k8s.io/utils/clock"
 )
 

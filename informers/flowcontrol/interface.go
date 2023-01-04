@@ -19,11 +19,11 @@ limitations under the License.
 package flowcontrol
 
 import (
-	v1alpha1 "k8s.io/client-go/informers/flowcontrol/v1alpha1"
-	v1beta1 "k8s.io/client-go/informers/flowcontrol/v1beta1"
-	v1beta2 "k8s.io/client-go/informers/flowcontrol/v1beta2"
-	v1beta3 "k8s.io/client-go/informers/flowcontrol/v1beta3"
-	internalinterfaces "k8s.io/client-go/informers/internalinterfaces"
+	v1alpha1 "github.com/spotmaxtech/k8s-client-go-v0260/informers/flowcontrol/v1alpha1"
+	v1beta1 "github.com/spotmaxtech/k8s-client-go-v0260/informers/flowcontrol/v1beta1"
+	v1beta2 "github.com/spotmaxtech/k8s-client-go-v0260/informers/flowcontrol/v1beta2"
+	v1beta3 "github.com/spotmaxtech/k8s-client-go-v0260/informers/flowcontrol/v1beta3"
+	internalinterfaces "github.com/spotmaxtech/k8s-client-go-v0260/informers/internalinterfaces"
 )
 
 // Interface provides access to each of this group's versions.

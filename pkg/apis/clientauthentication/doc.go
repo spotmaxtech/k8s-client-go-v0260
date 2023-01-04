@@ -17,4 +17,4 @@ limitations under the License.
 // +k8s:deepcopy-gen=package
 // +groupName=client.authentication.k8s.io
 
-package clientauthentication // import "k8s.io/client-go/pkg/apis/clientauthentication"
+package clientauthentication // import "github.com/spotmaxtech/k8s-client-go-v0260/pkg/apis/clientauthentication"

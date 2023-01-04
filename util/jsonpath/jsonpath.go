@@ -24,7 +24,7 @@ import (
 	"reflect"
 	"strings"
 
-	"k8s.io/client-go/third_party/forked/golang/template"
+	"github.com/spotmaxtech/k8s-client-go-v0260/third_party/forked/golang/template"
 )
 
 type JSONPath struct {

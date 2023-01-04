@@ -25,7 +25,7 @@ import (
 	"path/filepath"
 	"time"
 
-	certutil "k8s.io/client-go/util/cert"
+	certutil "github.com/spotmaxtech/k8s-client-go-v0260/util/cert"
 	"k8s.io/klog/v2"
 )
 

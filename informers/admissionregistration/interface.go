@@ -19,10 +19,10 @@ limitations under the License.
 package admissionregistration
 
 import (
-	v1 "k8s.io/client-go/informers/admissionregistration/v1"
-	v1alpha1 "k8s.io/client-go/informers/admissionregistration/v1alpha1"
-	v1beta1 "k8s.io/client-go/informers/admissionregistration/v1beta1"
-	internalinterfaces "k8s.io/client-go/informers/internalinterfaces"
+	v1 "github.com/spotmaxtech/k8s-client-go-v0260/informers/admissionregistration/v1"
+	v1alpha1 "github.com/spotmaxtech/k8s-client-go-v0260/informers/admissionregistration/v1alpha1"
+	v1beta1 "github.com/spotmaxtech/k8s-client-go-v0260/informers/admissionregistration/v1beta1"
+	internalinterfaces "github.com/spotmaxtech/k8s-client-go-v0260/informers/internalinterfaces"
 )
 
 // Interface provides access to each of this group's versions.

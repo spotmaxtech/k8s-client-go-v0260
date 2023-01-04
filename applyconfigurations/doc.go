@@ -29,7 +29,7 @@ example:
 
 	import (
 	     ...
-	     v1ac "k8s.io/client-go/applyconfigurations/autoscaling/v1"
+	     v1ac "github.com/spotmaxtech/k8s-client-go-v0260/applyconfigurations/autoscaling/v1"
 	)
 	hpaApplyConfig := v1ac.HorizontalPodAutoscaler(autoscalerName, ns).
 	     WithSpec(v1ac.HorizontalPodAutoscalerSpec().

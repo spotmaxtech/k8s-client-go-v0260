@@ -22,8 +22,8 @@ import (
 	"net/http"
 
 	v1 "k8s.io/api/events/v1"
-	"k8s.io/client-go/kubernetes/scheme"
-	rest "k8s.io/client-go/rest"
+	"github.com/spotmaxtech/k8s-client-go-v0260/kubernetes/scheme"
+	rest "github.com/spotmaxtech/k8s-client-go-v0260/rest"
 )
 
 type EventsV1Interface interface {

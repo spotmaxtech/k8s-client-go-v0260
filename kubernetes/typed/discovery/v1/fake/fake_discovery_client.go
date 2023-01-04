@@ -19,9 +19,9 @@ limitations under the License.
 package fake
 
 import (
-	v1 "k8s.io/client-go/kubernetes/typed/discovery/v1"
-	rest "k8s.io/client-go/rest"
-	testing "k8s.io/client-go/testing"
+	v1 "github.com/spotmaxtech/k8s-client-go-v0260/kubernetes/typed/discovery/v1"
+	rest "github.com/spotmaxtech/k8s-client-go-v0260/rest"
+	testing "github.com/spotmaxtech/k8s-client-go-v0260/testing"
 )
 
 type FakeDiscoveryV1 struct {

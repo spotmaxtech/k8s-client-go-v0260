@@ -19,9 +19,9 @@ limitations under the License.
 package fake
 
 import (
-	v1beta3 "k8s.io/client-go/kubernetes/typed/flowcontrol/v1beta3"
-	rest "k8s.io/client-go/rest"
-	testing "k8s.io/client-go/testing"
+	v1beta3 "github.com/spotmaxtech/k8s-client-go-v0260/kubernetes/typed/flowcontrol/v1beta3"
+	rest "github.com/spotmaxtech/k8s-client-go-v0260/rest"
+	testing "github.com/spotmaxtech/k8s-client-go-v0260/testing"
 )
 
 type FakeFlowcontrolV1beta3 struct {

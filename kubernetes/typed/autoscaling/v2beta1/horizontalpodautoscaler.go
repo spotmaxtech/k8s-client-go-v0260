@@ -28,9 +28,9 @@ import (
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"
-	autoscalingv2beta1 "k8s.io/client-go/applyconfigurations/autoscaling/v2beta1"
-	scheme "k8s.io/client-go/kubernetes/scheme"
-	rest "k8s.io/client-go/rest"
+	autoscalingv2beta1 "github.com/spotmaxtech/k8s-client-go-v0260/applyconfigurations/autoscaling/v2beta1"
+	scheme "github.com/spotmaxtech/k8s-client-go-v0260/kubernetes/scheme"
+	rest "github.com/spotmaxtech/k8s-client-go-v0260/rest"
 )
 
 // HorizontalPodAutoscalersGetter has a method to return a HorizontalPodAutoscalerInterface.

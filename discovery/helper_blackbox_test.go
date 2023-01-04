@@ -25,14 +25,14 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/spotmaxtech/k8s-client-go-v0260/discovery"
+	restclient "github.com/spotmaxtech/k8s-client-go-v0260/rest"
+	"github.com/spotmaxtech/k8s-client-go-v0260/rest/fake"
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/apimachinery/pkg/util/sets"
-	"k8s.io/client-go/discovery"
-	restclient "k8s.io/client-go/rest"
-	"k8s.io/client-go/rest/fake"
 )
 
 func objBody(object interface{}) io.ReadCloser {

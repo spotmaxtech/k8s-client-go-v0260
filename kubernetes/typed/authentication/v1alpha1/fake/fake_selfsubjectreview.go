@@ -24,7 +24,7 @@ import (
 	v1alpha1 "k8s.io/api/authentication/v1alpha1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
-	testing "k8s.io/client-go/testing"
+	testing "github.com/spotmaxtech/k8s-client-go-v0260/testing"
 )
 
 // FakeSelfSubjectReviews implements SelfSubjectReviewInterface

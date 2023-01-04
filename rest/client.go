@@ -24,10 +24,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/spotmaxtech/k8s-client-go-v0260/util/flowcontrol"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/apimachinery/pkg/types"
-	"k8s.io/client-go/util/flowcontrol"
 )
 
 const (

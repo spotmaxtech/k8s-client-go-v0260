@@ -21,19 +21,19 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/spotmaxtech/k8s-client-go-v0260/discovery"
+	scalescheme "github.com/spotmaxtech/k8s-client-go-v0260/scale/scheme"
+	scaleappsint "github.com/spotmaxtech/k8s-client-go-v0260/scale/scheme/appsint"
+	scaleappsv1beta1 "github.com/spotmaxtech/k8s-client-go-v0260/scale/scheme/appsv1beta1"
+	scaleappsv1beta2 "github.com/spotmaxtech/k8s-client-go-v0260/scale/scheme/appsv1beta2"
+	scaleautoscaling "github.com/spotmaxtech/k8s-client-go-v0260/scale/scheme/autoscalingv1"
+	scaleextint "github.com/spotmaxtech/k8s-client-go-v0260/scale/scheme/extensionsint"
+	scaleext "github.com/spotmaxtech/k8s-client-go-v0260/scale/scheme/extensionsv1beta1"
 	"k8s.io/apimachinery/pkg/api/meta"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	serializer "k8s.io/apimachinery/pkg/runtime/serializer"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
-	"k8s.io/client-go/discovery"
-	scalescheme "k8s.io/client-go/scale/scheme"
-	scaleappsint "k8s.io/client-go/scale/scheme/appsint"
-	scaleappsv1beta1 "k8s.io/client-go/scale/scheme/appsv1beta1"
-	scaleappsv1beta2 "k8s.io/client-go/scale/scheme/appsv1beta2"
-	scaleautoscaling "k8s.io/client-go/scale/scheme/autoscalingv1"
-	scaleextint "k8s.io/client-go/scale/scheme/extensionsint"
-	scaleext "k8s.io/client-go/scale/scheme/extensionsv1beta1"
 )
 
 // PreferredResourceMapper determines the preferred version of a resource to scale

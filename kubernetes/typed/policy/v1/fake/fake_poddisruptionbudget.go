@@ -29,8 +29,8 @@ import (
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"
-	applyconfigurationspolicyv1 "k8s.io/client-go/applyconfigurations/policy/v1"
-	testing "k8s.io/client-go/testing"
+	applyconfigurationspolicyv1 "github.com/spotmaxtech/k8s-client-go-v0260/applyconfigurations/policy/v1"
+	testing "github.com/spotmaxtech/k8s-client-go-v0260/testing"
 )
 
 // FakePodDisruptionBudgets implements PodDisruptionBudgetInterface

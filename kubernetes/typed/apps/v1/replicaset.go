@@ -29,10 +29,10 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"
-	appsv1 "k8s.io/client-go/applyconfigurations/apps/v1"
-	applyconfigurationsautoscalingv1 "k8s.io/client-go/applyconfigurations/autoscaling/v1"
-	scheme "k8s.io/client-go/kubernetes/scheme"
-	rest "k8s.io/client-go/rest"
+	appsv1 "github.com/spotmaxtech/k8s-client-go-v0260/applyconfigurations/apps/v1"
+	applyconfigurationsautoscalingv1 "github.com/spotmaxtech/k8s-client-go-v0260/applyconfigurations/autoscaling/v1"
+	scheme "github.com/spotmaxtech/k8s-client-go-v0260/kubernetes/scheme"
+	rest "github.com/spotmaxtech/k8s-client-go-v0260/rest"
 )
 
 // ReplicaSetsGetter has a method to return a ReplicaSetInterface.

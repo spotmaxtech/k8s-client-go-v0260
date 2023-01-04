@@ -31,6 +31,9 @@ import (
 	"github.com/golang/protobuf/proto"
 	openapi_v2 "github.com/google/gnostic/openapiv2"
 
+	"github.com/spotmaxtech/k8s-client-go-v0260/kubernetes/scheme"
+	"github.com/spotmaxtech/k8s-client-go-v0260/openapi"
+	restclient "github.com/spotmaxtech/k8s-client-go-v0260/rest"
 	apidiscovery "k8s.io/api/apidiscovery/v2beta1"
 	"k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
@@ -39,9 +42,6 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/serializer"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
 	"k8s.io/apimachinery/pkg/version"
-	"k8s.io/client-go/kubernetes/scheme"
-	"k8s.io/client-go/openapi"
-	restclient "k8s.io/client-go/rest"
 )
 
 const (

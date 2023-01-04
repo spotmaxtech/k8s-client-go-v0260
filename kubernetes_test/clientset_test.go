@@ -22,11 +22,11 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	"github.com/spotmaxtech/k8s-client-go-v0260/kubernetes"
+	"github.com/spotmaxtech/k8s-client-go-v0260/kubernetes/scheme"
+	"github.com/spotmaxtech/k8s-client-go-v0260/rest"
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/client-go/kubernetes"
-	"k8s.io/client-go/kubernetes/scheme"
-	"k8s.io/client-go/rest"
 )
 
 func TestClientUserAgent(t *testing.T) {

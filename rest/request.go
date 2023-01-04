@@ -33,6 +33,9 @@ import (
 	"sync"
 	"time"
 
+	restclientwatch "github.com/spotmaxtech/k8s-client-go-v0260/rest/watch"
+	"github.com/spotmaxtech/k8s-client-go-v0260/tools/metrics"
+	"github.com/spotmaxtech/k8s-client-go-v0260/util/flowcontrol"
 	"golang.org/x/net/http2"
 	"k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
@@ -41,9 +44,6 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/serializer/streaming"
 	"k8s.io/apimachinery/pkg/util/net"
 	"k8s.io/apimachinery/pkg/watch"
-	restclientwatch "k8s.io/client-go/rest/watch"
-	"k8s.io/client-go/tools/metrics"
-	"k8s.io/client-go/util/flowcontrol"
 	"k8s.io/klog/v2"
 	"k8s.io/utils/clock"
 )

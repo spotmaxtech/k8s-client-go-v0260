@@ -29,8 +29,8 @@ import (
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"
-	resourcev1alpha1 "k8s.io/client-go/applyconfigurations/resource/v1alpha1"
-	testing "k8s.io/client-go/testing"
+	resourcev1alpha1 "github.com/spotmaxtech/k8s-client-go-v0260/applyconfigurations/resource/v1alpha1"
+	testing "github.com/spotmaxtech/k8s-client-go-v0260/testing"
 )
 
 // FakePodSchedulings implements PodSchedulingInterface

@@ -22,8 +22,8 @@ import (
 	"net/http"
 
 	v1alpha1 "k8s.io/api/apiserverinternal/v1alpha1"
-	"k8s.io/client-go/kubernetes/scheme"
-	rest "k8s.io/client-go/rest"
+	"github.com/spotmaxtech/k8s-client-go-v0260/kubernetes/scheme"
+	rest "github.com/spotmaxtech/k8s-client-go-v0260/rest"
 )
 
 type InternalV1alpha1Interface interface {

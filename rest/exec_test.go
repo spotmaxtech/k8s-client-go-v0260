@@ -27,11 +27,11 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	fuzz "github.com/google/gofuzz"
+	clientauthenticationapi "github.com/spotmaxtech/k8s-client-go-v0260/pkg/apis/clientauthentication"
+	clientcmdapi "github.com/spotmaxtech/k8s-client-go-v0260/tools/clientcmd/api"
+	"github.com/spotmaxtech/k8s-client-go-v0260/transport"
+	"github.com/spotmaxtech/k8s-client-go-v0260/util/flowcontrol"
 	"k8s.io/apimachinery/pkg/runtime"
-	clientauthenticationapi "k8s.io/client-go/pkg/apis/clientauthentication"
-	clientcmdapi "k8s.io/client-go/tools/clientcmd/api"
-	"k8s.io/client-go/transport"
-	"k8s.io/client-go/util/flowcontrol"
 )
 
 func TestConfigToExecCluster(t *testing.T) {

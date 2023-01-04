@@ -19,13 +19,13 @@ package v1
 import (
 	"context"
 
+	"github.com/spotmaxtech/k8s-client-go-v0260/kubernetes/scheme"
+	restclient "github.com/spotmaxtech/k8s-client-go-v0260/rest"
 	v1 "k8s.io/api/core/v1"
 	policyv1 "k8s.io/api/policy/v1"
 	policyv1beta1 "k8s.io/api/policy/v1beta1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/net"
-	"k8s.io/client-go/kubernetes/scheme"
-	restclient "k8s.io/client-go/rest"
 )
 
 // The PodExpansion interface allows manually adding extra methods to the PodInterface.

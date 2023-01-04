@@ -28,9 +28,9 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"
-	nodev1 "k8s.io/client-go/applyconfigurations/node/v1"
-	scheme "k8s.io/client-go/kubernetes/scheme"
-	rest "k8s.io/client-go/rest"
+	nodev1 "github.com/spotmaxtech/k8s-client-go-v0260/applyconfigurations/node/v1"
+	scheme "github.com/spotmaxtech/k8s-client-go-v0260/kubernetes/scheme"
+	rest "github.com/spotmaxtech/k8s-client-go-v0260/rest"
 )
 
 // RuntimeClassesGetter has a method to return a RuntimeClassInterface.

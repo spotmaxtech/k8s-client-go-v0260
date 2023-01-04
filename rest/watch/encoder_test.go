@@ -21,6 +21,8 @@ import (
 	"io"
 	"testing"
 
+	"github.com/spotmaxtech/k8s-client-go-v0260/kubernetes/scheme"
+	restclientwatch "github.com/spotmaxtech/k8s-client-go-v0260/rest/watch"
 	"k8s.io/api/core/v1"
 	apiequality "k8s.io/apimachinery/pkg/api/equality"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
@@ -28,8 +30,6 @@ import (
 	runtimejson "k8s.io/apimachinery/pkg/runtime/serializer/json"
 	"k8s.io/apimachinery/pkg/runtime/serializer/streaming"
 	"k8s.io/apimachinery/pkg/watch"
-	"k8s.io/client-go/kubernetes/scheme"
-	restclientwatch "k8s.io/client-go/rest/watch"
 )
 
 // getEncoder mimics how k8s.io/client-go/rest.createSerializers creates a encoder

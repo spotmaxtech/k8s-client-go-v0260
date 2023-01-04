@@ -30,6 +30,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
+	"github.com/spotmaxtech/k8s-client-go-v0260/discovery"
+	"github.com/spotmaxtech/k8s-client-go-v0260/openapi"
+	restclient "github.com/spotmaxtech/k8s-client-go-v0260/rest"
+	"github.com/spotmaxtech/k8s-client-go-v0260/rest/fake"
+	testutil "github.com/spotmaxtech/k8s-client-go-v0260/util/testing"
 	apidiscovery "k8s.io/api/apidiscovery/v2beta1"
 	"k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
@@ -37,11 +42,6 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/apimachinery/pkg/version"
-	"k8s.io/client-go/discovery"
-	"k8s.io/client-go/openapi"
-	restclient "k8s.io/client-go/rest"
-	"k8s.io/client-go/rest/fake"
-	testutil "k8s.io/client-go/util/testing"
 )
 
 func TestCachedDiscoveryClient_Fresh(t *testing.T) {

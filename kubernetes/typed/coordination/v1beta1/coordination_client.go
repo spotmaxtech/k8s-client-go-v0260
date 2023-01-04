@@ -22,8 +22,8 @@ import (
 	"net/http"
 
 	v1beta1 "k8s.io/api/coordination/v1beta1"
-	"k8s.io/client-go/kubernetes/scheme"
-	rest "k8s.io/client-go/rest"
+	"github.com/spotmaxtech/k8s-client-go-v0260/kubernetes/scheme"
+	rest "github.com/spotmaxtech/k8s-client-go-v0260/rest"
 )
 
 type CoordinationV1beta1Interface interface {

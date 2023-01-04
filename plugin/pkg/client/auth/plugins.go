@@ -18,5 +18,5 @@ package auth
 
 import (
 	// Initialize common client auth plugins.
-	_ "k8s.io/client-go/plugin/pkg/client/auth/oidc"
+	_ "github.com/spotmaxtech/k8s-client-go-v0260/plugin/pkg/client/auth/oidc"
 )

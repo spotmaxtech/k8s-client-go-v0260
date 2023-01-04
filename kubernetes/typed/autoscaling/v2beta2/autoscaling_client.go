@@ -22,8 +22,8 @@ import (
 	"net/http"
 
 	v2beta2 "k8s.io/api/autoscaling/v2beta2"
-	"k8s.io/client-go/kubernetes/scheme"
-	rest "k8s.io/client-go/rest"
+	"github.com/spotmaxtech/k8s-client-go-v0260/kubernetes/scheme"
+	rest "github.com/spotmaxtech/k8s-client-go-v0260/rest"
 )
 
 type AutoscalingV2beta2Interface interface {

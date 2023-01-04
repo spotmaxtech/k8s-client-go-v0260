@@ -11,14 +11,14 @@ To enable these plugins in your program, import them in your main package.
 
 You can load all auth plugins:
 ```go
-import _ "k8s.io/client-go/plugin/pkg/client/auth"
+import _ "github.com/spotmaxtech/k8s-client-go-v0260/plugin/pkg/client/auth"
 ```
 
 Or you can load specific auth plugins:
 ```go
-import _ "k8s.io/client-go/plugin/pkg/client/auth/azure"
-import _ "k8s.io/client-go/plugin/pkg/client/auth/gcp"
-import _ "k8s.io/client-go/plugin/pkg/client/auth/oidc"
+import _ "github.com/spotmaxtech/k8s-client-go-v0260/plugin/pkg/client/auth/azure"
+import _ "github.com/spotmaxtech/k8s-client-go-v0260/plugin/pkg/client/auth/gcp"
+import _ "github.com/spotmaxtech/k8s-client-go-v0260/plugin/pkg/client/auth/oidc"
 ```
 
 ### Configuration

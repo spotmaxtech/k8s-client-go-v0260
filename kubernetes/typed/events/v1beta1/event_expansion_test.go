@@ -22,10 +22,10 @@ import (
 	"strings"
 	"testing"
 
+	"github.com/spotmaxtech/k8s-client-go-v0260/kubernetes/scheme"
+	restfake "github.com/spotmaxtech/k8s-client-go-v0260/rest/fake"
 	"k8s.io/api/events/v1beta1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/client-go/kubernetes/scheme"
-	restfake "k8s.io/client-go/rest/fake"
 )
 
 func TestCreateWithEventNamespace(t *testing.T) {

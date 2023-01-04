@@ -17,11 +17,11 @@ limitations under the License.
 package metadatalister
 
 import (
+	"github.com/spotmaxtech/k8s-client-go-v0260/tools/cache"
 	"k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/labels"
 	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/client-go/tools/cache"
 )
 
 var _ Lister = &metadataLister{}

@@ -22,15 +22,15 @@ import (
 
 	openapi_v2 "github.com/google/gnostic/openapiv2"
 
+	"github.com/spotmaxtech/k8s-client-go-v0260/discovery"
+	"github.com/spotmaxtech/k8s-client-go-v0260/openapi"
+	kubeversion "github.com/spotmaxtech/k8s-client-go-v0260/pkg/version"
+	restclient "github.com/spotmaxtech/k8s-client-go-v0260/rest"
+	"github.com/spotmaxtech/k8s-client-go-v0260/testing"
 	"k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/apimachinery/pkg/version"
-	"k8s.io/client-go/discovery"
-	"k8s.io/client-go/openapi"
-	kubeversion "k8s.io/client-go/pkg/version"
-	restclient "k8s.io/client-go/rest"
-	"k8s.io/client-go/testing"
 )
 
 // FakeDiscovery implements discovery.DiscoveryInterface and sometimes calls testing.Fake.Invoke with an action,

@@ -22,8 +22,8 @@ import (
 	"net/http"
 
 	v1beta1 "k8s.io/api/flowcontrol/v1beta1"
-	"k8s.io/client-go/kubernetes/scheme"
-	rest "k8s.io/client-go/rest"
+	"github.com/spotmaxtech/k8s-client-go-v0260/kubernetes/scheme"
+	rest "github.com/spotmaxtech/k8s-client-go-v0260/rest"
 )
 
 type FlowcontrolV1beta1Interface interface {

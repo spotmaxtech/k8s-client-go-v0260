@@ -17,9 +17,9 @@ limitations under the License.
 package events
 
 import (
+	"github.com/spotmaxtech/k8s-client-go-v0260/tools/record"
 	eventsv1 "k8s.io/api/events/v1"
 	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/client-go/tools/record"
 	"k8s.io/klog/v2"
 )
 

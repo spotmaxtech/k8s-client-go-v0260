@@ -26,7 +26,7 @@ import (
 
 	conversion "k8s.io/apimachinery/pkg/conversion"
 	runtime "k8s.io/apimachinery/pkg/runtime"
-	api "k8s.io/client-go/tools/clientcmd/api"
+	api "github.com/spotmaxtech/k8s-client-go-v0260/tools/clientcmd/api"
 )
 
 func init() {

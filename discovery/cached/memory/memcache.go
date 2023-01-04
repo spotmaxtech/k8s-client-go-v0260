@@ -24,15 +24,15 @@ import (
 
 	openapi_v2 "github.com/google/gnostic/openapiv2"
 
+	"github.com/spotmaxtech/k8s-client-go-v0260/discovery"
+	"github.com/spotmaxtech/k8s-client-go-v0260/openapi"
+	cachedopenapi "github.com/spotmaxtech/k8s-client-go-v0260/openapi/cached"
+	restclient "github.com/spotmaxtech/k8s-client-go-v0260/rest"
 	errorsutil "k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
 	"k8s.io/apimachinery/pkg/version"
-	"k8s.io/client-go/discovery"
-	"k8s.io/client-go/openapi"
-	cachedopenapi "k8s.io/client-go/openapi/cached"
-	restclient "k8s.io/client-go/rest"
 )
 
 type cacheEntry struct {

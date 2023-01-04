@@ -21,4 +21,4 @@ limitations under the License.
 
 // +groupName=client.authentication.k8s.io
 
-package v1 // import "k8s.io/client-go/pkg/apis/clientauthentication/v1"
+package v1 // import "github.com/spotmaxtech/k8s-client-go-v0260/pkg/apis/clientauthentication/v1"

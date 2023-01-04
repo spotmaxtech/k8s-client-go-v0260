@@ -19,7 +19,7 @@ limitations under the License.
 package v1alpha1
 
 import (
-	v1 "k8s.io/client-go/applyconfigurations/core/v1"
+	v1 "github.com/spotmaxtech/k8s-client-go-v0260/applyconfigurations/core/v1"
 )
 
 // ClusterCIDRSpecApplyConfiguration represents an declarative configuration of the ClusterCIDRSpec type for use

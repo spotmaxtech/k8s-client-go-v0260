@@ -19,14 +19,14 @@ package resourcelock
 import (
 	"context"
 	"fmt"
-	clientset "k8s.io/client-go/kubernetes"
-	restclient "k8s.io/client-go/rest"
+	clientset "github.com/spotmaxtech/k8s-client-go-v0260/kubernetes"
+	restclient "github.com/spotmaxtech/k8s-client-go-v0260/rest"
 	"time"
 
+	coordinationv1 "github.com/spotmaxtech/k8s-client-go-v0260/kubernetes/typed/coordination/v1"
+	corev1 "github.com/spotmaxtech/k8s-client-go-v0260/kubernetes/typed/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
-	coordinationv1 "k8s.io/client-go/kubernetes/typed/coordination/v1"
-	corev1 "k8s.io/client-go/kubernetes/typed/core/v1"
 )
 
 const (

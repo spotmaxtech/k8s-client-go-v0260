@@ -37,11 +37,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/spotmaxtech/k8s-client-go-v0260/pkg/apis/clientauthentication"
+	"github.com/spotmaxtech/k8s-client-go-v0260/tools/clientcmd/api"
+	"github.com/spotmaxtech/k8s-client-go-v0260/transport"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/client-go/pkg/apis/clientauthentication"
-	"k8s.io/client-go/tools/clientcmd/api"
-	"k8s.io/client-go/transport"
 	testingclock "k8s.io/utils/clock/testing"
 )
 

@@ -19,9 +19,9 @@ package v1
 import (
 	"context"
 
+	scheme "github.com/spotmaxtech/k8s-client-go-v0260/kubernetes/scheme"
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	scheme "k8s.io/client-go/kubernetes/scheme"
 )
 
 // The NamespaceExpansion interface allows manually adding extra methods to the NamespaceInterface.

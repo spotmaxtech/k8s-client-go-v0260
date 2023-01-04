@@ -19,9 +19,9 @@ limitations under the License.
 package fake
 
 import (
-	v2 "k8s.io/client-go/kubernetes/typed/autoscaling/v2"
-	rest "k8s.io/client-go/rest"
-	testing "k8s.io/client-go/testing"
+	v2 "github.com/spotmaxtech/k8s-client-go-v0260/kubernetes/typed/autoscaling/v2"
+	rest "github.com/spotmaxtech/k8s-client-go-v0260/rest"
+	testing "github.com/spotmaxtech/k8s-client-go-v0260/testing"
 )
 
 type FakeAutoscalingV2 struct {

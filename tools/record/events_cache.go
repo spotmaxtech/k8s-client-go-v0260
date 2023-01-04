@@ -25,11 +25,11 @@ import (
 
 	"github.com/golang/groupcache/lru"
 
+	"github.com/spotmaxtech/k8s-client-go-v0260/util/flowcontrol"
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/apimachinery/pkg/util/strategicpatch"
-	"k8s.io/client-go/util/flowcontrol"
 	"k8s.io/utils/clock"
 )
 

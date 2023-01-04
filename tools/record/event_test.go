@@ -25,14 +25,14 @@ import (
 	"testing"
 	"time"
 
+	"github.com/spotmaxtech/k8s-client-go-v0260/kubernetes/scheme"
+	restclient "github.com/spotmaxtech/k8s-client-go-v0260/rest"
+	ref "github.com/spotmaxtech/k8s-client-go-v0260/tools/reference"
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	k8sruntime "k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/util/strategicpatch"
-	"k8s.io/client-go/kubernetes/scheme"
-	restclient "k8s.io/client-go/rest"
-	ref "k8s.io/client-go/tools/reference"
 	"k8s.io/utils/clock"
 	testclocks "k8s.io/utils/clock/testing"
 )

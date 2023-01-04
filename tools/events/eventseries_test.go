@@ -24,14 +24,14 @@ import (
 	"os"
 	"strings"
 
+	"github.com/spotmaxtech/k8s-client-go-v0260/kubernetes/scheme"
+	restclient "github.com/spotmaxtech/k8s-client-go-v0260/rest"
+	ref "github.com/spotmaxtech/k8s-client-go-v0260/tools/reference"
 	v1 "k8s.io/api/core/v1"
 	eventsv1 "k8s.io/api/events/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	k8sruntime "k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/util/wait"
-	"k8s.io/client-go/kubernetes/scheme"
-	restclient "k8s.io/client-go/rest"
-	ref "k8s.io/client-go/tools/reference"
 )
 
 type testEventSeriesSink struct {

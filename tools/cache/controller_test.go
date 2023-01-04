@@ -23,6 +23,7 @@ import (
 	"testing"
 	"time"
 
+	fcache "github.com/spotmaxtech/k8s-client-go-v0260/tools/cache/testing"
 	"k8s.io/api/core/v1"
 	apiequality "k8s.io/apimachinery/pkg/api/equality"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
@@ -30,7 +31,6 @@ import (
 	"k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/apimachinery/pkg/watch"
-	fcache "k8s.io/client-go/tools/cache/testing"
 
 	"github.com/google/gofuzz"
 )

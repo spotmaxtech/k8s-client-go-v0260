@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"testing"
 
-	restclient "k8s.io/client-go/rest"
-	clientcmdapi "k8s.io/client-go/tools/clientcmd/api"
+	restclient "github.com/spotmaxtech/k8s-client-go-v0260/rest"
+	clientcmdapi "github.com/spotmaxtech/k8s-client-go-v0260/tools/clientcmd/api"
 )
 
 type testClientConfig struct {

@@ -30,10 +30,10 @@ import (
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/runtime/schema"
 	utilerrors "k8s.io/apimachinery/pkg/util/errors"
-	restclient "k8s.io/client-go/rest"
-	clientcmdapi "k8s.io/client-go/tools/clientcmd/api"
-	clientcmdlatest "k8s.io/client-go/tools/clientcmd/api/latest"
-	"k8s.io/client-go/util/homedir"
+	restclient "github.com/spotmaxtech/k8s-client-go-v0260/rest"
+	clientcmdapi "github.com/spotmaxtech/k8s-client-go-v0260/tools/clientcmd/api"
+	clientcmdlatest "github.com/spotmaxtech/k8s-client-go-v0260/tools/clientcmd/api/latest"
+	"github.com/spotmaxtech/k8s-client-go-v0260/util/homedir"
 )
 
 const (

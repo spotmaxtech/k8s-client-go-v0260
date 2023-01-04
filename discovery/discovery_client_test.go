@@ -30,6 +30,9 @@ import (
 	openapi_v2 "github.com/google/gnostic/openapiv2"
 	openapi_v3 "github.com/google/gnostic/openapiv3"
 	"github.com/google/go-cmp/cmp"
+	"github.com/spotmaxtech/k8s-client-go-v0260/openapi"
+	restclient "github.com/spotmaxtech/k8s-client-go-v0260/rest"
+	testutil "github.com/spotmaxtech/k8s-client-go-v0260/util/testing"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	golangproto "google.golang.org/protobuf/proto"
@@ -40,9 +43,6 @@ import (
 	"k8s.io/apimachinery/pkg/util/diff"
 	"k8s.io/apimachinery/pkg/util/sets"
 	"k8s.io/apimachinery/pkg/version"
-	"k8s.io/client-go/openapi"
-	restclient "k8s.io/client-go/rest"
-	testutil "k8s.io/client-go/util/testing"
 	"k8s.io/kube-openapi/pkg/spec3"
 )
 

@@ -26,10 +26,10 @@ import (
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	watch "k8s.io/apimachinery/pkg/watch"
-	internalinterfaces "k8s.io/client-go/informers/internalinterfaces"
-	kubernetes "k8s.io/client-go/kubernetes"
-	v1beta2 "k8s.io/client-go/listers/flowcontrol/v1beta2"
-	cache "k8s.io/client-go/tools/cache"
+	internalinterfaces "github.com/spotmaxtech/k8s-client-go-v0260/informers/internalinterfaces"
+	kubernetes "github.com/spotmaxtech/k8s-client-go-v0260/kubernetes"
+	v1beta2 "github.com/spotmaxtech/k8s-client-go-v0260/listers/flowcontrol/v1beta2"
+	cache "github.com/spotmaxtech/k8s-client-go-v0260/tools/cache"
 )
 
 // PriorityLevelConfigurationInformer provides access to a shared informer and lister for

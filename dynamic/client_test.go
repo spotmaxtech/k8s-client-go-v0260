@@ -27,6 +27,8 @@ import (
 	"strings"
 	"testing"
 
+	restclient "github.com/spotmaxtech/k8s-client-go-v0260/rest"
+	restclientwatch "github.com/spotmaxtech/k8s-client-go-v0260/rest/watch"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/apimachinery/pkg/runtime"
@@ -34,8 +36,6 @@ import (
 	"k8s.io/apimachinery/pkg/runtime/serializer/streaming"
 	"k8s.io/apimachinery/pkg/types"
 	"k8s.io/apimachinery/pkg/watch"
-	restclient "k8s.io/client-go/rest"
-	restclientwatch "k8s.io/client-go/rest/watch"
 )
 
 func getJSON(version, kind, name string) []byte {

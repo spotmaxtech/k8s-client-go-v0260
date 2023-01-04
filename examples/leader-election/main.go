@@ -25,12 +25,12 @@ import (
 	"time"
 
 	"github.com/google/uuid"
+	clientset "github.com/spotmaxtech/k8s-client-go-v0260/kubernetes"
+	"github.com/spotmaxtech/k8s-client-go-v0260/rest"
+	"github.com/spotmaxtech/k8s-client-go-v0260/tools/clientcmd"
+	"github.com/spotmaxtech/k8s-client-go-v0260/tools/leaderelection"
+	"github.com/spotmaxtech/k8s-client-go-v0260/tools/leaderelection/resourcelock"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	clientset "k8s.io/client-go/kubernetes"
-	"k8s.io/client-go/rest"
-	"k8s.io/client-go/tools/clientcmd"
-	"k8s.io/client-go/tools/leaderelection"
-	"k8s.io/client-go/tools/leaderelection/resourcelock"
 	"k8s.io/klog/v2"
 )
 

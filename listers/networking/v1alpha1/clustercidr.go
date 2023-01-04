@@ -22,7 +22,7 @@ import (
 	v1alpha1 "k8s.io/api/networking/v1alpha1"
 	"k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/labels"
-	"k8s.io/client-go/tools/cache"
+	"github.com/spotmaxtech/k8s-client-go-v0260/tools/cache"
 )
 
 // ClusterCIDRLister helps list ClusterCIDRs.

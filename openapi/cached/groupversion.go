@@ -19,7 +19,7 @@ package cached
 import (
 	"sync"
 
-	"k8s.io/client-go/openapi"
+	"github.com/spotmaxtech/k8s-client-go-v0260/openapi"
 )
 
 type groupversion struct {

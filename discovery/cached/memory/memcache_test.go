@@ -33,11 +33,11 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/util/sets"
-	"k8s.io/client-go/discovery"
-	"k8s.io/client-go/discovery/fake"
-	"k8s.io/client-go/openapi"
-	"k8s.io/client-go/rest"
-	testutil "k8s.io/client-go/util/testing"
+	"github.com/spotmaxtech/k8s-client-go-v0260/discovery"
+	"github.com/spotmaxtech/k8s-client-go-v0260/discovery/fake"
+	"github.com/spotmaxtech/k8s-client-go-v0260/openapi"
+	"github.com/spotmaxtech/k8s-client-go-v0260/rest"
+	testutil "github.com/spotmaxtech/k8s-client-go-v0260/util/testing"
 )
 
 type resourceMapEntry struct {

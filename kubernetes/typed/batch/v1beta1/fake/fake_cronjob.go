@@ -29,8 +29,8 @@ import (
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"
-	batchv1beta1 "k8s.io/client-go/applyconfigurations/batch/v1beta1"
-	testing "k8s.io/client-go/testing"
+	batchv1beta1 "github.com/spotmaxtech/k8s-client-go-v0260/applyconfigurations/batch/v1beta1"
+	testing "github.com/spotmaxtech/k8s-client-go-v0260/testing"
 )
 
 // FakeCronJobs implements CronJobInterface

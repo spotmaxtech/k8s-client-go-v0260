@@ -19,11 +19,11 @@ limitations under the License.
 package autoscaling
 
 import (
-	v1 "k8s.io/client-go/informers/autoscaling/v1"
-	v2 "k8s.io/client-go/informers/autoscaling/v2"
-	v2beta1 "k8s.io/client-go/informers/autoscaling/v2beta1"
-	v2beta2 "k8s.io/client-go/informers/autoscaling/v2beta2"
-	internalinterfaces "k8s.io/client-go/informers/internalinterfaces"
+	v1 "github.com/spotmaxtech/k8s-client-go-v0260/informers/autoscaling/v1"
+	v2 "github.com/spotmaxtech/k8s-client-go-v0260/informers/autoscaling/v2"
+	v2beta1 "github.com/spotmaxtech/k8s-client-go-v0260/informers/autoscaling/v2beta1"
+	v2beta2 "github.com/spotmaxtech/k8s-client-go-v0260/informers/autoscaling/v2beta2"
+	internalinterfaces "github.com/spotmaxtech/k8s-client-go-v0260/informers/internalinterfaces"
 )
 
 // Interface provides access to each of this group's versions.
