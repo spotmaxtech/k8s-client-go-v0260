@@ -1,6 +1,6 @@
 // This is a generated file. Do not edit directly.
 
-module k8s.io/client-go
+module github.com/spotmaxtech/k8s-client-go-v0260
 
 go 1.19
 
