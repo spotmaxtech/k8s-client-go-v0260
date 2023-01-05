@@ -25,16 +25,16 @@ import (
 
 	jsonpatch "github.com/evanphx/json-patch"
 
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/api/errors"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/api/meta"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/schema"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/types"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/json"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/strategicpatch"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/watch"
 	restclient "github.com/spotmaxtech/k8s-client-go-v0260/rest"
-	"k8s.io/apimachinery/pkg/api/errors"
-	"k8s.io/apimachinery/pkg/api/meta"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apimachinery/pkg/types"
-	"k8s.io/apimachinery/pkg/util/json"
-	"k8s.io/apimachinery/pkg/util/strategicpatch"
-	"k8s.io/apimachinery/pkg/watch"
 )
 
 // ObjectTracker keeps track of objects. It is intended to be used to

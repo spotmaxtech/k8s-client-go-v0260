@@ -19,7 +19,7 @@ limitations under the License.
 package v1beta1
 
 import (
-	v1beta1 "k8s.io/api/networking/v1beta1"
+	v1beta1 "github.com/spotmaxtech/k8s-api-v0260/networking/v1beta1"
 )
 
 // HTTPIngressPathApplyConfiguration represents an declarative configuration of the HTTPIngressPath type for use

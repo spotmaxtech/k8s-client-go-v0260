@@ -22,9 +22,9 @@ import (
 	"net/url"
 	"time"
 
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/httpstream"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/httpstream/spdy"
 	restclient "github.com/spotmaxtech/k8s-client-go-v0260/rest"
-	"k8s.io/apimachinery/pkg/util/httpstream"
-	"k8s.io/apimachinery/pkg/util/httpstream/spdy"
 )
 
 // Upgrader validates a response from the server after a SPDY upgrade.

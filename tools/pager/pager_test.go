@@ -23,11 +23,11 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/apimachinery/pkg/api/errors"
-	metainternalversion "k8s.io/apimachinery/pkg/apis/meta/internalversion"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	metav1beta1 "k8s.io/apimachinery/pkg/apis/meta/v1beta1"
-	"k8s.io/apimachinery/pkg/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/api/errors"
+	metainternalversion "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/internalversion"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
+	metav1beta1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1beta1"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime"
 )
 
 func list(count int, rv string) *metainternalversion.List {

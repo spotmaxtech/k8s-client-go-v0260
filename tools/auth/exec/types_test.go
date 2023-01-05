@@ -21,8 +21,8 @@ import (
 	"reflect"
 	"testing"
 
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/util/sets"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/sets"
 	clientauthenticationv1 "github.com/spotmaxtech/k8s-client-go-v0260/pkg/apis/clientauthentication/v1"
 	clientauthenticationv1beta1 "github.com/spotmaxtech/k8s-client-go-v0260/pkg/apis/clientauthentication/v1beta1"
 	clientcmdv1 "github.com/spotmaxtech/k8s-client-go-v0260/tools/clientcmd/api/v1"

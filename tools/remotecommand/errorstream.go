@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"io"
 
-	"k8s.io/apimachinery/pkg/util/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/runtime"
 )
 
 // errorStreamDecoder interprets the data on the error channel and creates a go error object from it.

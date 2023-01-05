@@ -19,11 +19,11 @@ package dynamic
 import (
 	"context"
 
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apimachinery/pkg/types"
-	"k8s.io/apimachinery/pkg/watch"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1/unstructured"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/schema"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/types"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/watch"
 )
 
 type Interface interface {

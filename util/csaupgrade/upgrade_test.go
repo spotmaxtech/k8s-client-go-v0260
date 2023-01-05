@@ -23,12 +23,12 @@ import (
 
 	jsonpatch "github.com/evanphx/json-patch"
 	"github.com/google/go-cmp/cmp"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1/unstructured"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/sets"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/yaml"
 	"github.com/spotmaxtech/k8s-client-go-v0260/util/csaupgrade"
 	"github.com/stretchr/testify/require"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
-	"k8s.io/apimachinery/pkg/util/sets"
-	"k8s.io/apimachinery/pkg/util/yaml"
 	"sigs.k8s.io/structured-merge-diff/v4/fieldpath"
 )
 

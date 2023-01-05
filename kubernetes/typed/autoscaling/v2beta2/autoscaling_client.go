@@ -21,7 +21,7 @@ package v2beta2
 import (
 	"net/http"
 
-	v2beta2 "k8s.io/api/autoscaling/v2beta2"
+	v2beta2 "github.com/spotmaxtech/k8s-api-v0260/autoscaling/v2beta2"
 	"github.com/spotmaxtech/k8s-client-go-v0260/kubernetes/scheme"
 	rest "github.com/spotmaxtech/k8s-client-go-v0260/rest"
 )

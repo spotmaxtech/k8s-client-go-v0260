@@ -19,7 +19,7 @@ limitations under the License.
 package v2beta2
 
 import (
-	v1 "k8s.io/api/core/v1"
+	v1 "github.com/spotmaxtech/k8s-api-v0260/core/v1"
 )
 
 // ResourceMetricSourceApplyConfiguration represents an declarative configuration of the ResourceMetricSource type for use

@@ -17,13 +17,13 @@ limitations under the License.
 package latest
 
 import (
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/schema"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/serializer/json"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/serializer/versioning"
+	utilruntime "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/runtime"
 	"github.com/spotmaxtech/k8s-client-go-v0260/tools/clientcmd/api"
 	"github.com/spotmaxtech/k8s-client-go-v0260/tools/clientcmd/api/v1"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apimachinery/pkg/runtime/serializer/json"
-	"k8s.io/apimachinery/pkg/runtime/serializer/versioning"
-	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
 )
 
 // Version is the string that represents the current external default version.

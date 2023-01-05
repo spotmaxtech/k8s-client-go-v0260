@@ -17,8 +17,8 @@ limitations under the License.
 package appsv1beta2
 
 import (
-	appsapiv1beta2 "k8s.io/api/apps/v1beta2"
-	"k8s.io/apimachinery/pkg/runtime/schema"
+	appsapiv1beta2 "github.com/spotmaxtech/k8s-api-v0260/apps/v1beta2"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/schema"
 )
 
 // GroupName is the group name use in this package

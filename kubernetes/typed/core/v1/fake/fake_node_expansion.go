@@ -19,9 +19,9 @@ package fake
 import (
 	"context"
 
+	v1 "github.com/spotmaxtech/k8s-api-v0260/core/v1"
+	types "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/types"
 	core "github.com/spotmaxtech/k8s-client-go-v0260/testing"
-	v1 "k8s.io/api/core/v1"
-	types "k8s.io/apimachinery/pkg/types"
 )
 
 // TODO: Should take a PatchType as an argument probably.

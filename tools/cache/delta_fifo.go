@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	"k8s.io/apimachinery/pkg/util/sets"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/sets"
 
 	"k8s.io/klog/v2"
 	utiltrace "k8s.io/utils/trace"

@@ -21,12 +21,12 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/schema"
 	clientauthenticationv1 "github.com/spotmaxtech/k8s-client-go-v0260/pkg/apis/clientauthentication/v1"
 	clientauthenticationv1beta1 "github.com/spotmaxtech/k8s-client-go-v0260/pkg/apis/clientauthentication/v1beta1"
 	"github.com/spotmaxtech/k8s-client-go-v0260/rest"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
 )
 
 // restInfo holds the rest.Client fields that we care about for test assertions.

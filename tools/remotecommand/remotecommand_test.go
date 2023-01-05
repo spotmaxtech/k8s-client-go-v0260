@@ -28,13 +28,13 @@ import (
 	"testing"
 	"time"
 
-	v1 "k8s.io/api/core/v1"
-	apierrors "k8s.io/apimachinery/pkg/api/errors"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/util/httpstream"
-	"k8s.io/apimachinery/pkg/util/httpstream/spdy"
-	remotecommandconsts "k8s.io/apimachinery/pkg/util/remotecommand"
-	"k8s.io/apimachinery/pkg/util/wait"
+	v1 "github.com/spotmaxtech/k8s-api-v0260/core/v1"
+	apierrors "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/api/errors"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/httpstream"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/httpstream/spdy"
+	remotecommandconsts "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/remotecommand"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/wait"
 	"github.com/spotmaxtech/k8s-client-go-v0260/rest"
 )
 

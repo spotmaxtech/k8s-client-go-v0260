@@ -19,7 +19,7 @@ limitations under the License.
 package v1
 
 import (
-	batchv1 "k8s.io/api/batch/v1"
+	batchv1 "github.com/spotmaxtech/k8s-api-v0260/batch/v1"
 	corev1 "github.com/spotmaxtech/k8s-client-go-v0260/applyconfigurations/core/v1"
 	metav1 "github.com/spotmaxtech/k8s-client-go-v0260/applyconfigurations/meta/v1"
 )

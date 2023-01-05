@@ -19,7 +19,7 @@ limitations under the License.
 package v2beta2
 
 import (
-	resource "k8s.io/apimachinery/pkg/api/resource"
+	resource "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/api/resource"
 )
 
 // MetricValueStatusApplyConfiguration represents an declarative configuration of the MetricValueStatus type for use

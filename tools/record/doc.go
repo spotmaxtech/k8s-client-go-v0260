@@ -15,5 +15,5 @@ limitations under the License.
 */
 
 // Package record has all client logic for recording and reporting
-// "k8s.io/api/core/v1".Event events.
+// "github.com/spotmaxtech/k8s-api-v0260/core/v1".Event events.
 package record // import "github.com/spotmaxtech/k8s-client-go-v0260/tools/record"

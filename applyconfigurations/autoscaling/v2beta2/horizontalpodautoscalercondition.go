@@ -19,9 +19,9 @@ limitations under the License.
 package v2beta2
 
 import (
-	v2beta2 "k8s.io/api/autoscaling/v2beta2"
-	v1 "k8s.io/api/core/v1"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
+	v2beta2 "github.com/spotmaxtech/k8s-api-v0260/autoscaling/v2beta2"
+	v1 "github.com/spotmaxtech/k8s-api-v0260/core/v1"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
 )
 
 // HorizontalPodAutoscalerConditionApplyConfiguration represents an declarative configuration of the HorizontalPodAutoscalerCondition type for use

@@ -17,9 +17,9 @@ limitations under the License.
 package testing
 
 import (
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/watch"
 	restclient "github.com/spotmaxtech/k8s-client-go-v0260/rest"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/watch"
 )
 
 type FakeClient interface {

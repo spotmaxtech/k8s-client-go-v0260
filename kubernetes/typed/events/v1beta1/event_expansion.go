@@ -20,8 +20,8 @@ import (
 	"context"
 	"fmt"
 
-	"k8s.io/api/events/v1beta1"
-	"k8s.io/apimachinery/pkg/types"
+	"github.com/spotmaxtech/k8s-api-v0260/events/v1beta1"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/types"
 )
 
 // The EventExpansion interface allows manually adding extra methods to the EventInterface.

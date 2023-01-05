@@ -23,10 +23,10 @@ import (
 	restclient "github.com/spotmaxtech/k8s-client-go-v0260/rest"
 	"time"
 
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime"
 	coordinationv1 "github.com/spotmaxtech/k8s-client-go-v0260/kubernetes/typed/coordination/v1"
 	corev1 "github.com/spotmaxtech/k8s-client-go-v0260/kubernetes/typed/core/v1"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/runtime"
 )
 
 const (

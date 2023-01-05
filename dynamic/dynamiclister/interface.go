@@ -17,8 +17,8 @@ limitations under the License.
 package dynamiclister
 
 import (
-	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
-	"k8s.io/apimachinery/pkg/labels"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1/unstructured"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/labels"
 )
 
 // Lister helps list resources.

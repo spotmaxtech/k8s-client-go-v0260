@@ -19,8 +19,8 @@ limitations under the License.
 package v1
 
 import (
-	policyv1 "k8s.io/api/policy/v1"
-	intstr "k8s.io/apimachinery/pkg/util/intstr"
+	policyv1 "github.com/spotmaxtech/k8s-api-v0260/policy/v1"
+	intstr "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/intstr"
 	v1 "github.com/spotmaxtech/k8s-client-go-v0260/applyconfigurations/meta/v1"
 )
 

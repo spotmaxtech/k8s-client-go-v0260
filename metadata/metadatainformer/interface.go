@@ -17,9 +17,9 @@ limitations under the License.
 package metadatainformer
 
 import (
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/schema"
 	"github.com/spotmaxtech/k8s-client-go-v0260/informers"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/runtime/schema"
 )
 
 // SharedInformerFactory provides access to a shared informer and lister for dynamic client

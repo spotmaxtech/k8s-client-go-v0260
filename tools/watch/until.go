@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"time"
 
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/util/wait"
-	"k8s.io/apimachinery/pkg/watch"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/wait"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/watch"
 	"github.com/spotmaxtech/k8s-client-go-v0260/tools/cache"
 	"k8s.io/klog/v2"
 )

@@ -17,11 +17,11 @@ limitations under the License.
 package dynamiclister
 
 import (
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/api/errors"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1/unstructured"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/labels"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/schema"
 	"github.com/spotmaxtech/k8s-client-go-v0260/tools/cache"
-	"k8s.io/apimachinery/pkg/api/errors"
-	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
-	"k8s.io/apimachinery/pkg/labels"
-	"k8s.io/apimachinery/pkg/runtime/schema"
 )
 
 var _ Lister = &dynamicLister{}

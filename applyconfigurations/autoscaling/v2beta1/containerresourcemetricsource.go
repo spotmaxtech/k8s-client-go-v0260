@@ -19,8 +19,8 @@ limitations under the License.
 package v2beta1
 
 import (
-	v1 "k8s.io/api/core/v1"
-	resource "k8s.io/apimachinery/pkg/api/resource"
+	v1 "github.com/spotmaxtech/k8s-api-v0260/core/v1"
+	resource "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/api/resource"
 )
 
 // ContainerResourceMetricSourceApplyConfiguration represents an declarative configuration of the ContainerResourceMetricSource type for use

@@ -19,7 +19,7 @@ limitations under the License.
 package v1beta1
 
 import (
-	v1 "k8s.io/api/admissionregistration/v1"
+	v1 "github.com/spotmaxtech/k8s-api-v0260/admissionregistration/v1"
 	admissionregistrationv1 "github.com/spotmaxtech/k8s-client-go-v0260/applyconfigurations/admissionregistration/v1"
 )
 

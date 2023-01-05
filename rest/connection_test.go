@@ -31,10 +31,10 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apimachinery/pkg/runtime/serializer"
-	utilnet "k8s.io/apimachinery/pkg/util/net"
-	"k8s.io/apimachinery/pkg/util/wait"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/schema"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/serializer"
+	utilnet "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/net"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/wait"
 )
 
 type tcpLB struct {

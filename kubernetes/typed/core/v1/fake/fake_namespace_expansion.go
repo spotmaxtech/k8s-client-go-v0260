@@ -19,9 +19,9 @@ package fake
 import (
 	"context"
 
+	"github.com/spotmaxtech/k8s-api-v0260/core/v1"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
 	core "github.com/spotmaxtech/k8s-client-go-v0260/testing"
-	"k8s.io/api/core/v1"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 
 func (c *FakeNamespaces) Finalize(ctx context.Context, namespace *v1.Namespace, opts metav1.UpdateOptions) (*v1.Namespace, error) {

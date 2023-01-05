@@ -28,15 +28,15 @@ import (
 	openapi_v2 "github.com/google/gnostic/openapiv2"
 	"k8s.io/klog/v2"
 
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/version"
 	"github.com/spotmaxtech/k8s-client-go-v0260/discovery"
 	"github.com/spotmaxtech/k8s-client-go-v0260/discovery/cached/memory"
 	"github.com/spotmaxtech/k8s-client-go-v0260/kubernetes/scheme"
 	"github.com/spotmaxtech/k8s-client-go-v0260/openapi"
 	cachedopenapi "github.com/spotmaxtech/k8s-client-go-v0260/openapi/cached"
 	restclient "github.com/spotmaxtech/k8s-client-go-v0260/rest"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/version"
 )
 
 // CachedDiscoveryClient implements the functions that discovery server-supported API groups,

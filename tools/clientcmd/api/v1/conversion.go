@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"sort"
 
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/conversion"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime"
 	"github.com/spotmaxtech/k8s-client-go-v0260/tools/clientcmd/api"
-	"k8s.io/apimachinery/pkg/conversion"
-	"k8s.io/apimachinery/pkg/runtime"
 )
 
 func Convert_Slice_v1_NamedCluster_To_Map_string_To_Pointer_api_Cluster(in *[]NamedCluster, out *map[string]*api.Cluster, s conversion.Scope) error {

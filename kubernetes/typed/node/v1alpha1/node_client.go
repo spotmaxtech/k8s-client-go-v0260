@@ -21,7 +21,7 @@ package v1alpha1
 import (
 	"net/http"
 
-	v1alpha1 "k8s.io/api/node/v1alpha1"
+	v1alpha1 "github.com/spotmaxtech/k8s-api-v0260/node/v1alpha1"
 	"github.com/spotmaxtech/k8s-client-go-v0260/kubernetes/scheme"
 	rest "github.com/spotmaxtech/k8s-client-go-v0260/rest"
 )

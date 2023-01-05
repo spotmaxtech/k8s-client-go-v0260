@@ -30,13 +30,13 @@ import (
 	"testing"
 	"time"
 
+	v1 "github.com/spotmaxtech/k8s-api-v0260/core/v1"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/schema"
 	"github.com/spotmaxtech/k8s-client-go-v0260/kubernetes/scheme"
 	clientcmdapi "github.com/spotmaxtech/k8s-client-go-v0260/tools/clientcmd/api"
 	"github.com/spotmaxtech/k8s-client-go-v0260/transport"
 	"github.com/spotmaxtech/k8s-client-go-v0260/util/flowcontrol"
-	v1 "k8s.io/api/core/v1"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
 
 	"github.com/google/go-cmp/cmp"
 	fuzz "github.com/google/gofuzz"

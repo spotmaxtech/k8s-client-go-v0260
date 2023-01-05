@@ -23,16 +23,16 @@ import (
 	"testing"
 	"time"
 
+	"github.com/spotmaxtech/k8s-api-v0260/core/v1"
+	apiequality "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/api/equality"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime"
+	runtimejson "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/serializer/json"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/serializer/streaming"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/wait"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/watch"
 	"github.com/spotmaxtech/k8s-client-go-v0260/kubernetes/scheme"
 	restclientwatch "github.com/spotmaxtech/k8s-client-go-v0260/rest/watch"
-	"k8s.io/api/core/v1"
-	apiequality "k8s.io/apimachinery/pkg/api/equality"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/runtime"
-	runtimejson "k8s.io/apimachinery/pkg/runtime/serializer/json"
-	"k8s.io/apimachinery/pkg/runtime/serializer/streaming"
-	"k8s.io/apimachinery/pkg/util/wait"
-	"k8s.io/apimachinery/pkg/watch"
 )
 
 // getDecoder mimics how k8s.io/client-go/rest.createSerializers creates a decoder

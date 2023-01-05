@@ -20,7 +20,7 @@ import (
 	"path"
 	"testing"
 
-	"k8s.io/api/core/v1"
+	"github.com/spotmaxtech/k8s-api-v0260/core/v1"
 )
 
 func TestValidatesHostParameter(t *testing.T) {

@@ -21,6 +21,11 @@ import (
 	"strings"
 	"sync"
 
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/api/meta"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/schema"
+	serializer "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/serializer"
+	utilruntime "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/runtime"
 	"github.com/spotmaxtech/k8s-client-go-v0260/discovery"
 	scalescheme "github.com/spotmaxtech/k8s-client-go-v0260/scale/scheme"
 	scaleappsint "github.com/spotmaxtech/k8s-client-go-v0260/scale/scheme/appsint"
@@ -29,11 +34,6 @@ import (
 	scaleautoscaling "github.com/spotmaxtech/k8s-client-go-v0260/scale/scheme/autoscalingv1"
 	scaleextint "github.com/spotmaxtech/k8s-client-go-v0260/scale/scheme/extensionsint"
 	scaleext "github.com/spotmaxtech/k8s-client-go-v0260/scale/scheme/extensionsv1beta1"
-	"k8s.io/apimachinery/pkg/api/meta"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	serializer "k8s.io/apimachinery/pkg/runtime/serializer"
-	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
 )
 
 // PreferredResourceMapper determines the preferred version of a resource to scale

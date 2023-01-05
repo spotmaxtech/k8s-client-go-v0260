@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	utilnet "k8s.io/apimachinery/pkg/util/net"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
+	utilnet "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/net"
 	clientset "github.com/spotmaxtech/k8s-client-go-v0260/kubernetes"
 	"github.com/spotmaxtech/k8s-client-go-v0260/rest"
 	clientcmdapi "github.com/spotmaxtech/k8s-client-go-v0260/tools/clientcmd/api"

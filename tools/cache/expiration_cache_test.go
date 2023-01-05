@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"k8s.io/apimachinery/pkg/util/sets"
-	"k8s.io/apimachinery/pkg/util/wait"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/sets"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/wait"
 	"k8s.io/utils/clock"
 	testingclock "k8s.io/utils/clock/testing"
 )

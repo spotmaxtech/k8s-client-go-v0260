@@ -19,8 +19,8 @@ package cache
 import (
 	"fmt"
 
-	"k8s.io/apimachinery/pkg/api/meta"
-	"k8s.io/apimachinery/pkg/util/sets"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/api/meta"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/sets"
 )
 
 // Indexer extends Store with multiple indices and restricts each

@@ -19,7 +19,7 @@ limitations under the License.
 package v1
 
 import (
-	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
+	v1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
 )
 
 // ManagedFieldsEntryApplyConfiguration represents an declarative configuration of the ManagedFieldsEntry type for use

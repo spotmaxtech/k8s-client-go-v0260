@@ -20,12 +20,12 @@ import (
 	"context"
 	"testing"
 
+	corev1 "github.com/spotmaxtech/k8s-api-v0260/core/v1"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/schema"
 	"github.com/spotmaxtech/k8s-client-go-v0260/kubernetes/fake"
 	"github.com/spotmaxtech/k8s-client-go-v0260/kubernetes/scheme"
-	corev1 "k8s.io/api/core/v1"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
 )
 
 // This test proves that the kube fake client does not return GVKs.  This is consistent with actual client (see tests below)

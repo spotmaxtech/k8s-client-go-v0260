@@ -19,7 +19,7 @@ limitations under the License.
 package v1alpha1
 
 import (
-	v1alpha1 "k8s.io/api/admissionregistration/v1alpha1"
+	v1alpha1 "github.com/spotmaxtech/k8s-api-v0260/admissionregistration/v1alpha1"
 )
 
 // RuleApplyConfiguration represents an declarative configuration of the Rule type for use

@@ -19,9 +19,9 @@ package fake
 import (
 	"context"
 
+	certificates "github.com/spotmaxtech/k8s-api-v0260/certificates/v1beta1"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
 	core "github.com/spotmaxtech/k8s-client-go-v0260/testing"
-	certificates "k8s.io/api/certificates/v1beta1"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 
 func (c *FakeCertificateSigningRequests) UpdateApproval(ctx context.Context, certificateSigningRequest *certificates.CertificateSigningRequest, opts metav1.UpdateOptions) (result *certificates.CertificateSigningRequest, err error) {

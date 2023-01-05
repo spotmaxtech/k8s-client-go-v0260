@@ -21,7 +21,7 @@ package v1
 import (
 	"net/http"
 
-	v1 "k8s.io/api/batch/v1"
+	v1 "github.com/spotmaxtech/k8s-api-v0260/batch/v1"
 	"github.com/spotmaxtech/k8s-client-go-v0260/kubernetes/scheme"
 	rest "github.com/spotmaxtech/k8s-client-go-v0260/rest"
 )

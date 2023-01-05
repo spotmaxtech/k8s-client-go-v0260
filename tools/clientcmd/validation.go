@@ -23,8 +23,8 @@ import (
 	"reflect"
 	"strings"
 
-	utilerrors "k8s.io/apimachinery/pkg/util/errors"
-	"k8s.io/apimachinery/pkg/util/validation"
+	utilerrors "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/errors"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/validation"
 	clientcmdapi "github.com/spotmaxtech/k8s-client-go-v0260/tools/clientcmd/api"
 )
 

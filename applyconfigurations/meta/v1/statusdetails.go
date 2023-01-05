@@ -19,7 +19,7 @@ limitations under the License.
 package v1
 
 import (
-	types "k8s.io/apimachinery/pkg/types"
+	types "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/types"
 )
 
 // StatusDetailsApplyConfiguration represents an declarative configuration of the StatusDetails type for use

@@ -22,9 +22,9 @@ limitations under the License.
 package extensionsv1beta1
 
 import (
-	v1beta1 "k8s.io/api/extensions/v1beta1"
-	conversion "k8s.io/apimachinery/pkg/conversion"
-	runtime "k8s.io/apimachinery/pkg/runtime"
+	v1beta1 "github.com/spotmaxtech/k8s-api-v0260/extensions/v1beta1"
+	conversion "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/conversion"
+	runtime "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime"
 	scheme "github.com/spotmaxtech/k8s-client-go-v0260/scale/scheme"
 )
 

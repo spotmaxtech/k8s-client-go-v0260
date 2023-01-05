@@ -31,17 +31,17 @@ import (
 	"github.com/golang/protobuf/proto"
 	openapi_v2 "github.com/google/gnostic/openapiv2"
 
+	apidiscovery "github.com/spotmaxtech/k8s-api-v0260/apidiscovery/v2beta1"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/api/errors"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/schema"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/serializer"
+	utilruntime "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/version"
 	"github.com/spotmaxtech/k8s-client-go-v0260/kubernetes/scheme"
 	"github.com/spotmaxtech/k8s-client-go-v0260/openapi"
 	restclient "github.com/spotmaxtech/k8s-client-go-v0260/rest"
-	apidiscovery "k8s.io/api/apidiscovery/v2beta1"
-	"k8s.io/apimachinery/pkg/api/errors"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apimachinery/pkg/runtime/serializer"
-	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
-	"k8s.io/apimachinery/pkg/version"
 )
 
 const (

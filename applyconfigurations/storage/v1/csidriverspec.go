@@ -19,7 +19,7 @@ limitations under the License.
 package v1
 
 import (
-	v1 "k8s.io/api/storage/v1"
+	v1 "github.com/spotmaxtech/k8s-api-v0260/storage/v1"
 )
 
 // CSIDriverSpecApplyConfiguration represents an declarative configuration of the CSIDriverSpec type for use

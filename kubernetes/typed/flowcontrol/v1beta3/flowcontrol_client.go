@@ -21,7 +21,7 @@ package v1beta3
 import (
 	"net/http"
 
-	v1beta3 "k8s.io/api/flowcontrol/v1beta3"
+	v1beta3 "github.com/spotmaxtech/k8s-api-v0260/flowcontrol/v1beta3"
 	"github.com/spotmaxtech/k8s-client-go-v0260/kubernetes/scheme"
 	rest "github.com/spotmaxtech/k8s-client-go-v0260/rest"
 )

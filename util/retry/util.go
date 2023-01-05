@@ -19,8 +19,8 @@ package retry
 import (
 	"time"
 
-	"k8s.io/apimachinery/pkg/api/errors"
-	"k8s.io/apimachinery/pkg/util/wait"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/api/errors"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/wait"
 )
 
 // DefaultRetry is the recommended retry for a conflict where multiple clients

@@ -19,8 +19,8 @@ limitations under the License.
 package v1beta3
 
 import (
-	v1beta3 "k8s.io/api/flowcontrol/v1beta3"
-	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
+	v1beta3 "github.com/spotmaxtech/k8s-api-v0260/flowcontrol/v1beta3"
+	v1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
 )
 
 // PriorityLevelConfigurationConditionApplyConfiguration represents an declarative configuration of the PriorityLevelConfigurationCondition type for use

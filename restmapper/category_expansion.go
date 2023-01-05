@@ -17,7 +17,7 @@ limitations under the License.
 package restmapper
 
 import (
-	"k8s.io/apimachinery/pkg/runtime/schema"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/schema"
 	"github.com/spotmaxtech/k8s-client-go-v0260/discovery"
 )
 

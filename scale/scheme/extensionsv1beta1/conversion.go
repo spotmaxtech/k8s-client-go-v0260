@@ -19,9 +19,9 @@ package extensionsv1beta1
 import (
 	"fmt"
 
-	v1beta1 "k8s.io/api/extensions/v1beta1"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/conversion"
+	v1beta1 "github.com/spotmaxtech/k8s-api-v0260/extensions/v1beta1"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/conversion"
 	scheme "github.com/spotmaxtech/k8s-client-go-v0260/scale/scheme"
 )
 

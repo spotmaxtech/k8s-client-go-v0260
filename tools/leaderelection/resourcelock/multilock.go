@@ -21,7 +21,7 @@ import (
 	"context"
 	"encoding/json"
 
-	apierrors "k8s.io/apimachinery/pkg/api/errors"
+	apierrors "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/api/errors"
 )
 
 const (

@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sync"
 
-	"k8s.io/apimachinery/pkg/util/sets"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/sets"
 )
 
 // ThreadSafeStore is an interface that allows concurrent indexed

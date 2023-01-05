@@ -19,7 +19,7 @@ limitations under the License.
 package v2beta1
 
 import (
-	resource "k8s.io/apimachinery/pkg/api/resource"
+	resource "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/api/resource"
 	v1 "github.com/spotmaxtech/k8s-client-go-v0260/applyconfigurations/meta/v1"
 )
 

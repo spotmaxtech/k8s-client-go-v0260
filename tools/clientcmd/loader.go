@@ -27,9 +27,9 @@ import (
 	"github.com/imdario/mergo"
 	"k8s.io/klog/v2"
 
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	utilerrors "k8s.io/apimachinery/pkg/util/errors"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/schema"
+	utilerrors "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/errors"
 	restclient "github.com/spotmaxtech/k8s-client-go-v0260/rest"
 	clientcmdapi "github.com/spotmaxtech/k8s-client-go-v0260/tools/clientcmd/api"
 	clientcmdlatest "github.com/spotmaxtech/k8s-client-go-v0260/tools/clientcmd/api/latest"

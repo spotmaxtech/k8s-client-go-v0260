@@ -24,11 +24,11 @@ import (
 
 	"k8s.io/klog/v2"
 
-	"k8s.io/apimachinery/pkg/api/meta"
-	"k8s.io/apimachinery/pkg/runtime"
-	utilcache "k8s.io/apimachinery/pkg/util/cache"
-	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
-	"k8s.io/apimachinery/pkg/util/sets"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/api/meta"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime"
+	utilcache "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/cache"
+	utilruntime "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/sets"
 )
 
 // MutationCache is able to take the result of update operations and stores them in an LRU

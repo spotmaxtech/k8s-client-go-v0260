@@ -30,8 +30,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	v1 "k8s.io/api/core/v1"
-	"k8s.io/apimachinery/pkg/util/httpstream"
+	v1 "github.com/spotmaxtech/k8s-api-v0260/core/v1"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/httpstream"
 )
 
 type fakeDialer struct {

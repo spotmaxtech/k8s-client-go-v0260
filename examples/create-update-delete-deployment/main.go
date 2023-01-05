@@ -25,13 +25,13 @@ import (
 	"os"
 	"path/filepath"
 
+	appsv1 "github.com/spotmaxtech/k8s-api-v0260/apps/v1"
+	apiv1 "github.com/spotmaxtech/k8s-api-v0260/core/v1"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
 	"github.com/spotmaxtech/k8s-client-go-v0260/kubernetes"
 	"github.com/spotmaxtech/k8s-client-go-v0260/tools/clientcmd"
 	"github.com/spotmaxtech/k8s-client-go-v0260/util/homedir"
 	"github.com/spotmaxtech/k8s-client-go-v0260/util/retry"
-	appsv1 "k8s.io/api/apps/v1"
-	apiv1 "k8s.io/api/core/v1"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	//
 	// Uncomment to load all auth plugins
 	// _ "github.com/spotmaxtech/k8s-client-go-v0260/plugin/pkg/client/auth"

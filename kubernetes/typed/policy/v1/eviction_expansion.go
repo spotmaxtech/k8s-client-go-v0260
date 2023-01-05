@@ -19,7 +19,7 @@ package v1
 import (
 	"context"
 
-	policy "k8s.io/api/policy/v1"
+	policy "github.com/spotmaxtech/k8s-api-v0260/policy/v1"
 )
 
 // The EvictionExpansion interface allows manually adding extra methods to the ScaleInterface.

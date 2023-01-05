@@ -19,9 +19,9 @@ limitations under the License.
 package v1beta1
 
 import (
-	v1beta1 "k8s.io/api/certificates/v1beta1"
-	v1 "k8s.io/api/core/v1"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
+	v1beta1 "github.com/spotmaxtech/k8s-api-v0260/certificates/v1beta1"
+	v1 "github.com/spotmaxtech/k8s-api-v0260/core/v1"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
 )
 
 // CertificateSigningRequestConditionApplyConfiguration represents an declarative configuration of the CertificateSigningRequestCondition type for use

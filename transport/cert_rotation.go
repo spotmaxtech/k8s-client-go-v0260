@@ -24,11 +24,11 @@ import (
 	"sync"
 	"time"
 
+	utilnet "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/net"
+	utilruntime "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/wait"
 	"github.com/spotmaxtech/k8s-client-go-v0260/util/connrotation"
 	"github.com/spotmaxtech/k8s-client-go-v0260/util/workqueue"
-	utilnet "k8s.io/apimachinery/pkg/util/net"
-	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
-	"k8s.io/apimachinery/pkg/util/wait"
 	"k8s.io/klog/v2"
 )
 

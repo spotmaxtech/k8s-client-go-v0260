@@ -25,7 +25,7 @@ import (
 	"encoding/pem"
 	"testing"
 
-	certificates "k8s.io/api/certificates/v1"
+	certificates "github.com/spotmaxtech/k8s-api-v0260/certificates/v1"
 )
 
 func TestEnsureCompatible(t *testing.T) {

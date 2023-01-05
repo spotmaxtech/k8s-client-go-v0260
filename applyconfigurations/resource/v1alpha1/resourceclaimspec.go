@@ -19,7 +19,7 @@ limitations under the License.
 package v1alpha1
 
 import (
-	resourcev1alpha1 "k8s.io/api/resource/v1alpha1"
+	resourcev1alpha1 "github.com/spotmaxtech/k8s-api-v0260/resource/v1alpha1"
 )
 
 // ResourceClaimSpecApplyConfiguration represents an declarative configuration of the ResourceClaimSpec type for use

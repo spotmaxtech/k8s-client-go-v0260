@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"k8s.io/apimachinery/pkg/api/meta"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/api/meta"
 )
 
 // Store is a generic object storage and processing interface.  A

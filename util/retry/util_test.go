@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"testing"
 
-	"k8s.io/apimachinery/pkg/api/errors"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apimachinery/pkg/util/wait"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/api/errors"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/schema"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/wait"
 )
 
 func TestRetryOnConflict(t *testing.T) {

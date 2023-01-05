@@ -19,8 +19,8 @@ limitations under the License.
 package v1
 
 import (
-	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	types "k8s.io/apimachinery/pkg/types"
+	v1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
+	types "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/types"
 )
 
 // ObjectMetaApplyConfiguration represents an declarative configuration of the ObjectMeta type for use

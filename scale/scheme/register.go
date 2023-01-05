@@ -17,9 +17,9 @@ limitations under the License.
 package scheme
 
 import (
-	autoscalingv1 "k8s.io/api/autoscaling/v1"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
+	autoscalingv1 "github.com/spotmaxtech/k8s-api-v0260/autoscaling/v1"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/schema"
 )
 
 // GroupName is the group name use in this package

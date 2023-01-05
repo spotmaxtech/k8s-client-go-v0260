@@ -19,10 +19,10 @@ package testing
 import (
 	"testing"
 
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/api/meta"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/schema"
 	"github.com/stretchr/testify/assert"
-	"k8s.io/apimachinery/pkg/api/meta"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
 )
 
 func TestOriginalObjectCaptured(t *testing.T) {

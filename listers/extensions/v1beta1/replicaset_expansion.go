@@ -19,10 +19,10 @@ package v1beta1
 import (
 	"fmt"
 
-	"k8s.io/api/core/v1"
-	extensions "k8s.io/api/extensions/v1beta1"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/labels"
+	"github.com/spotmaxtech/k8s-api-v0260/core/v1"
+	extensions "github.com/spotmaxtech/k8s-api-v0260/extensions/v1beta1"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/labels"
 )
 
 // ReplicaSetListerExpansion allows custom methods to be added to

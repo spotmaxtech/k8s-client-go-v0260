@@ -23,14 +23,14 @@ import (
 	"testing"
 	"time"
 
+	"github.com/spotmaxtech/k8s-api-v0260/core/v1"
+	apiequality "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/api/equality"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/sets"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/wait"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/watch"
 	fcache "github.com/spotmaxtech/k8s-client-go-v0260/tools/cache/testing"
-	"k8s.io/api/core/v1"
-	apiequality "k8s.io/apimachinery/pkg/api/equality"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/util/sets"
-	"k8s.io/apimachinery/pkg/util/wait"
-	"k8s.io/apimachinery/pkg/watch"
 
 	"github.com/google/gofuzz"
 )

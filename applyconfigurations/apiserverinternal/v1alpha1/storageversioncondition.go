@@ -19,8 +19,8 @@ limitations under the License.
 package v1alpha1
 
 import (
-	v1alpha1 "k8s.io/api/apiserverinternal/v1alpha1"
-	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
+	v1alpha1 "github.com/spotmaxtech/k8s-api-v0260/apiserverinternal/v1alpha1"
+	v1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
 )
 
 // StorageVersionConditionApplyConfiguration represents an declarative configuration of the StorageVersionCondition type for use

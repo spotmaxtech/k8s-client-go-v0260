@@ -19,10 +19,10 @@ package discovery
 import (
 	"testing"
 
+	apidiscovery "github.com/spotmaxtech/k8s-api-v0260/apidiscovery/v2beta1"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/schema"
 	"github.com/stretchr/testify/assert"
-	apidiscovery "k8s.io/api/apidiscovery/v2beta1"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/runtime/schema"
 )
 
 func TestSplitGroupsAndResources(t *testing.T) {

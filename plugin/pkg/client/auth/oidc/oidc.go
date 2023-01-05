@@ -28,9 +28,9 @@ import (
 	"sync"
 	"time"
 
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/net"
 	restclient "github.com/spotmaxtech/k8s-client-go-v0260/rest"
 	"golang.org/x/oauth2"
-	"k8s.io/apimachinery/pkg/util/net"
 	"k8s.io/klog/v2"
 )
 

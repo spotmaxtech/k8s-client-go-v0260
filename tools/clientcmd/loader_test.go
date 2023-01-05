@@ -28,10 +28,10 @@ import (
 
 	"sigs.k8s.io/yaml"
 
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/diff"
 	clientcmdapi "github.com/spotmaxtech/k8s-client-go-v0260/tools/clientcmd/api"
 	clientcmdlatest "github.com/spotmaxtech/k8s-client-go-v0260/tools/clientcmd/api/latest"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/util/diff"
 )
 
 var (

@@ -19,8 +19,8 @@ limitations under the License.
 package v1beta2
 
 import (
-	v1beta2 "k8s.io/api/flowcontrol/v1beta2"
-	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
+	v1beta2 "github.com/spotmaxtech/k8s-api-v0260/flowcontrol/v1beta2"
+	v1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
 )
 
 // FlowSchemaConditionApplyConfiguration represents an declarative configuration of the FlowSchemaCondition type for use

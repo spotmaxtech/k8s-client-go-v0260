@@ -24,7 +24,7 @@ import (
 
 	"github.com/imdario/mergo"
 
-	"k8s.io/apimachinery/pkg/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime"
 	restclient "github.com/spotmaxtech/k8s-client-go-v0260/rest"
 	clientcmdapi "github.com/spotmaxtech/k8s-client-go-v0260/tools/clientcmd/api"
 )

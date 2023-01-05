@@ -17,9 +17,9 @@ limitations under the License.
 package dynamiclister
 
 import (
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/labels"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime"
 	"github.com/spotmaxtech/k8s-client-go-v0260/tools/cache"
-	"k8s.io/apimachinery/pkg/labels"
-	"k8s.io/apimachinery/pkg/runtime"
 )
 
 var _ cache.GenericLister = &dynamicListerShim{}

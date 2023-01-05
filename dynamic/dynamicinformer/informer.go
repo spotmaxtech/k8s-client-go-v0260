@@ -21,15 +21,15 @@ import (
 	"sync"
 	"time"
 
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1/unstructured"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/schema"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/watch"
 	"github.com/spotmaxtech/k8s-client-go-v0260/dynamic"
 	"github.com/spotmaxtech/k8s-client-go-v0260/dynamic/dynamiclister"
 	"github.com/spotmaxtech/k8s-client-go-v0260/informers"
 	"github.com/spotmaxtech/k8s-client-go-v0260/tools/cache"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apimachinery/pkg/watch"
 )
 
 // NewDynamicSharedInformerFactory constructs a new instance of dynamicSharedInformerFactory for all namespaces.

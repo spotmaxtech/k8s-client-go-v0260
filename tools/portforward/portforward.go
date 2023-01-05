@@ -27,9 +27,9 @@ import (
 	"strings"
 	"sync"
 
-	v1 "k8s.io/api/core/v1"
-	"k8s.io/apimachinery/pkg/util/httpstream"
-	"k8s.io/apimachinery/pkg/util/runtime"
+	v1 "github.com/spotmaxtech/k8s-api-v0260/core/v1"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/httpstream"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/runtime"
 	netutils "k8s.io/utils/net"
 )
 

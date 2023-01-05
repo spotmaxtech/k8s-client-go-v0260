@@ -24,11 +24,11 @@ import (
 	"path/filepath"
 	"time"
 
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/api/errors"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
 	"github.com/spotmaxtech/k8s-client-go-v0260/kubernetes"
 	"github.com/spotmaxtech/k8s-client-go-v0260/tools/clientcmd"
 	"github.com/spotmaxtech/k8s-client-go-v0260/util/homedir"
-	"k8s.io/apimachinery/pkg/api/errors"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	//
 	// Uncomment to load all auth plugins
 	// _ "github.com/spotmaxtech/k8s-client-go-v0260/plugin/pkg/client/auth"

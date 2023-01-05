@@ -19,7 +19,7 @@ limitations under the License.
 package v1beta1
 
 import (
-	v1beta1 "k8s.io/api/policy/v1beta1"
+	v1beta1 "github.com/spotmaxtech/k8s-api-v0260/policy/v1beta1"
 )
 
 // RunAsGroupStrategyOptionsApplyConfiguration represents an declarative configuration of the RunAsGroupStrategyOptions type for use

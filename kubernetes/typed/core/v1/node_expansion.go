@@ -19,8 +19,8 @@ package v1
 import (
 	"context"
 
-	v1 "k8s.io/api/core/v1"
-	"k8s.io/apimachinery/pkg/types"
+	v1 "github.com/spotmaxtech/k8s-api-v0260/core/v1"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/types"
 )
 
 // The NodeExpansion interface allows manually adding extra methods to the NodeInterface.

@@ -22,8 +22,8 @@ import (
 	"net/http"
 	"sync"
 
-	"k8s.io/api/core/v1"
-	"k8s.io/apimachinery/pkg/util/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/runtime"
+	"github.com/spotmaxtech/k8s-api-v0260/core/v1"
 )
 
 // streamProtocolV3 implements version 3 of the streaming protocol for attach

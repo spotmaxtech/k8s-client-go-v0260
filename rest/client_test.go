@@ -28,15 +28,15 @@ import (
 	"testing"
 	"time"
 
+	v1 "github.com/spotmaxtech/k8s-api-v0260/core/v1"
+	v1beta1 "github.com/spotmaxtech/k8s-api-v0260/extensions/v1beta1"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/api/errors"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/types"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/diff"
 	"github.com/spotmaxtech/k8s-client-go-v0260/kubernetes/scheme"
 	utiltesting "github.com/spotmaxtech/k8s-client-go-v0260/util/testing"
-	v1 "k8s.io/api/core/v1"
-	v1beta1 "k8s.io/api/extensions/v1beta1"
-	"k8s.io/apimachinery/pkg/api/errors"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/types"
-	"k8s.io/apimachinery/pkg/util/diff"
 
 	"github.com/google/go-cmp/cmp"
 )

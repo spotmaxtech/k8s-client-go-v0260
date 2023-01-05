@@ -19,9 +19,9 @@ package discovery
 import (
 	"fmt"
 
-	apidiscovery "k8s.io/api/apidiscovery/v2beta1"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/runtime/schema"
+	apidiscovery "github.com/spotmaxtech/k8s-api-v0260/apidiscovery/v2beta1"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/schema"
 )
 
 // SplitGroupsAndResources transforms "aggregated" discovery top-level structure into

@@ -17,8 +17,8 @@ limitations under the License.
 package v1
 
 import (
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/net"
 	restclient "github.com/spotmaxtech/k8s-client-go-v0260/rest"
-	"k8s.io/apimachinery/pkg/util/net"
 )
 
 // The ServiceExpansion interface allows manually adding extra methods to the ServiceInterface.

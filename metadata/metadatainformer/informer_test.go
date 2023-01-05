@@ -24,13 +24,13 @@ import (
 
 	"k8s.io/klog/v2"
 
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/api/equality"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/schema"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/diff"
 	"github.com/spotmaxtech/k8s-client-go-v0260/metadata/fake"
 	"github.com/spotmaxtech/k8s-client-go-v0260/tools/cache"
-	"k8s.io/apimachinery/pkg/api/equality"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apimachinery/pkg/util/diff"
 )
 
 func init() {

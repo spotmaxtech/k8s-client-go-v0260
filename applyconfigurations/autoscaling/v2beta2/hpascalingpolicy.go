@@ -19,7 +19,7 @@ limitations under the License.
 package v2beta2
 
 import (
-	v2beta2 "k8s.io/api/autoscaling/v2beta2"
+	v2beta2 "github.com/spotmaxtech/k8s-api-v0260/autoscaling/v2beta2"
 )
 
 // HPAScalingPolicyApplyConfiguration represents an declarative configuration of the HPAScalingPolicy type for use

@@ -19,7 +19,7 @@ limitations under the License.
 package v1beta3
 
 import (
-	v1beta3 "k8s.io/api/flowcontrol/v1beta3"
+	v1beta3 "github.com/spotmaxtech/k8s-api-v0260/flowcontrol/v1beta3"
 )
 
 // FlowDistinguisherMethodApplyConfiguration represents an declarative configuration of the FlowDistinguisherMethod type for use

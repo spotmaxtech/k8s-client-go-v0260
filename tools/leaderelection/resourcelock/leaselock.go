@@ -22,10 +22,10 @@ import (
 	"errors"
 	"fmt"
 
+	coordinationv1 "github.com/spotmaxtech/k8s-api-v0260/coordination/v1"
+	corev1 "github.com/spotmaxtech/k8s-api-v0260/core/v1"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
 	coordinationv1client "github.com/spotmaxtech/k8s-client-go-v0260/kubernetes/typed/coordination/v1"
-	coordinationv1 "k8s.io/api/coordination/v1"
-	corev1 "k8s.io/api/core/v1"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 
 type LeaseLock struct {

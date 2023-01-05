@@ -19,7 +19,7 @@ package api
 import (
 	"fmt"
 
-	"k8s.io/apimachinery/pkg/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime"
 )
 
 // Where possible, json tags match the cli argument names.

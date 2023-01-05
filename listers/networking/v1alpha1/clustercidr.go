@@ -19,9 +19,9 @@ limitations under the License.
 package v1alpha1
 
 import (
-	v1alpha1 "k8s.io/api/networking/v1alpha1"
-	"k8s.io/apimachinery/pkg/api/errors"
-	"k8s.io/apimachinery/pkg/labels"
+	v1alpha1 "github.com/spotmaxtech/k8s-api-v0260/networking/v1alpha1"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/api/errors"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/labels"
 	"github.com/spotmaxtech/k8s-client-go-v0260/tools/cache"
 )
 

@@ -19,7 +19,7 @@ limitations under the License.
 package v1
 
 import (
-	corev1 "k8s.io/api/core/v1"
+	corev1 "github.com/spotmaxtech/k8s-api-v0260/core/v1"
 )
 
 // ContainerApplyConfiguration represents an declarative configuration of the Container type for use

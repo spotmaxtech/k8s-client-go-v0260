@@ -23,12 +23,12 @@ import (
 	json "encoding/json"
 	"fmt"
 
-	v1beta1 "k8s.io/api/events/v1beta1"
-	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	labels "k8s.io/apimachinery/pkg/labels"
-	schema "k8s.io/apimachinery/pkg/runtime/schema"
-	types "k8s.io/apimachinery/pkg/types"
-	watch "k8s.io/apimachinery/pkg/watch"
+	v1beta1 "github.com/spotmaxtech/k8s-api-v0260/events/v1beta1"
+	v1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
+	labels "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/labels"
+	schema "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/schema"
+	types "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/types"
+	watch "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/watch"
 	eventsv1beta1 "github.com/spotmaxtech/k8s-client-go-v0260/applyconfigurations/events/v1beta1"
 	testing "github.com/spotmaxtech/k8s-client-go-v0260/testing"
 )

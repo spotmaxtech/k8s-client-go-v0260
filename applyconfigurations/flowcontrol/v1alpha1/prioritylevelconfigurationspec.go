@@ -19,7 +19,7 @@ limitations under the License.
 package v1alpha1
 
 import (
-	v1alpha1 "k8s.io/api/flowcontrol/v1alpha1"
+	v1alpha1 "github.com/spotmaxtech/k8s-api-v0260/flowcontrol/v1alpha1"
 )
 
 // PriorityLevelConfigurationSpecApplyConfiguration represents an declarative configuration of the PriorityLevelConfigurationSpec type for use

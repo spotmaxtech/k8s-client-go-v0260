@@ -21,7 +21,7 @@ import (
 
 	fakediscovery "github.com/spotmaxtech/k8s-client-go-v0260/discovery/fake"
 	fakeclientset "github.com/spotmaxtech/k8s-client-go-v0260/kubernetes/fake"
-	"k8s.io/apimachinery/pkg/version"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/version"
 )
 
 func TestFakingServerVersion(t *testing.T) {

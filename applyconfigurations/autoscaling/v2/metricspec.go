@@ -19,7 +19,7 @@ limitations under the License.
 package v2
 
 import (
-	v2 "k8s.io/api/autoscaling/v2"
+	v2 "github.com/spotmaxtech/k8s-api-v0260/autoscaling/v2"
 )
 
 // MetricSpecApplyConfiguration represents an declarative configuration of the MetricSpec type for use

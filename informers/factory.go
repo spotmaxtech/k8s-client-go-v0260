@@ -23,9 +23,9 @@ import (
 	sync "sync"
 	time "time"
 
-	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	runtime "k8s.io/apimachinery/pkg/runtime"
-	schema "k8s.io/apimachinery/pkg/runtime/schema"
+	v1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
+	runtime "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime"
+	schema "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/schema"
 	admissionregistration "github.com/spotmaxtech/k8s-client-go-v0260/informers/admissionregistration"
 	apiserverinternal "github.com/spotmaxtech/k8s-client-go-v0260/informers/apiserverinternal"
 	apps "github.com/spotmaxtech/k8s-client-go-v0260/informers/apps"

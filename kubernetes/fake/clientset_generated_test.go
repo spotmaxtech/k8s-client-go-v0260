@@ -18,9 +18,9 @@ package fake
 
 import (
 	"context"
-	v1 "k8s.io/api/core/v1"
-	policy "k8s.io/api/policy/v1"
-	meta_v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
+	v1 "github.com/spotmaxtech/k8s-api-v0260/core/v1"
+	policy "github.com/spotmaxtech/k8s-api-v0260/policy/v1"
+	meta_v1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
 	"testing"
 )
 

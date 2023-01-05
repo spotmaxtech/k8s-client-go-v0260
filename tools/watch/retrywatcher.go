@@ -27,11 +27,11 @@ import (
 	"github.com/davecgh/go-spew/spew"
 
 	"github.com/spotmaxtech/k8s-client-go-v0260/tools/cache"
-	apierrors "k8s.io/apimachinery/pkg/api/errors"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/util/net"
-	"k8s.io/apimachinery/pkg/util/wait"
-	"k8s.io/apimachinery/pkg/watch"
+	apierrors "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/api/errors"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/net"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/wait"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/watch"
 	"k8s.io/klog/v2"
 )
 

@@ -31,15 +31,15 @@ import (
 
 	"k8s.io/klog/v2"
 
+	certificates "github.com/spotmaxtech/k8s-api-v0260/certificates/v1"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/api/errors"
+	utilruntime "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/sets"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/wait"
 	clientset "github.com/spotmaxtech/k8s-client-go-v0260/kubernetes"
 	"github.com/spotmaxtech/k8s-client-go-v0260/util/cert"
 	"github.com/spotmaxtech/k8s-client-go-v0260/util/certificate/csr"
 	"github.com/spotmaxtech/k8s-client-go-v0260/util/keyutil"
-	certificates "k8s.io/api/certificates/v1"
-	"k8s.io/apimachinery/pkg/api/errors"
-	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
-	"k8s.io/apimachinery/pkg/util/sets"
-	"k8s.io/apimachinery/pkg/util/wait"
 )
 
 // certificateWaitTimeout controls the amount of time we wait for certificate

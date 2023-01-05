@@ -26,22 +26,22 @@ import (
 	"testing"
 
 	jsonpatch "github.com/evanphx/json-patch"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/schema"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/types"
 	fakedisco "github.com/spotmaxtech/k8s-client-go-v0260/discovery/fake"
 	"github.com/spotmaxtech/k8s-client-go-v0260/dynamic"
 	fakerest "github.com/spotmaxtech/k8s-client-go-v0260/rest/fake"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apimachinery/pkg/types"
 
+	appsv1beta1 "github.com/spotmaxtech/k8s-api-v0260/apps/v1beta1"
+	appsv1beta2 "github.com/spotmaxtech/k8s-api-v0260/apps/v1beta2"
+	autoscalingv1 "github.com/spotmaxtech/k8s-api-v0260/autoscaling/v1"
+	corev1 "github.com/spotmaxtech/k8s-api-v0260/core/v1"
+	extv1beta1 "github.com/spotmaxtech/k8s-api-v0260/extensions/v1beta1"
 	"github.com/spotmaxtech/k8s-client-go-v0260/restmapper"
 	coretesting "github.com/spotmaxtech/k8s-client-go-v0260/testing"
 	"github.com/stretchr/testify/assert"
-	appsv1beta1 "k8s.io/api/apps/v1beta1"
-	appsv1beta2 "k8s.io/api/apps/v1beta2"
-	autoscalingv1 "k8s.io/api/autoscaling/v1"
-	corev1 "k8s.io/api/core/v1"
-	extv1beta1 "k8s.io/api/extensions/v1beta1"
 )
 
 func bytesBody(bodyBytes []byte) io.ReadCloser {

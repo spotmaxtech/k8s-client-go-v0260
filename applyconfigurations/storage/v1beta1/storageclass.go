@@ -19,11 +19,11 @@ limitations under the License.
 package v1beta1
 
 import (
-	corev1 "k8s.io/api/core/v1"
-	v1beta1 "k8s.io/api/storage/v1beta1"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	types "k8s.io/apimachinery/pkg/types"
-	managedfields "k8s.io/apimachinery/pkg/util/managedfields"
+	corev1 "github.com/spotmaxtech/k8s-api-v0260/core/v1"
+	v1beta1 "github.com/spotmaxtech/k8s-api-v0260/storage/v1beta1"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
+	types "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/types"
+	managedfields "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/managedfields"
 	applyconfigurationscorev1 "github.com/spotmaxtech/k8s-client-go-v0260/applyconfigurations/core/v1"
 	internal "github.com/spotmaxtech/k8s-client-go-v0260/applyconfigurations/internal"
 	v1 "github.com/spotmaxtech/k8s-client-go-v0260/applyconfigurations/meta/v1"

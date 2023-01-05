@@ -26,18 +26,18 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
-	apidiscovery "k8s.io/api/apidiscovery/v2beta1"
-	errorsutil "k8s.io/apimachinery/pkg/api/errors"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/runtime"
-	"k8s.io/apimachinery/pkg/util/sets"
+	errorsutil "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/api/errors"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/sets"
 	"github.com/spotmaxtech/k8s-client-go-v0260/discovery"
 	"github.com/spotmaxtech/k8s-client-go-v0260/discovery/fake"
 	"github.com/spotmaxtech/k8s-client-go-v0260/openapi"
 	"github.com/spotmaxtech/k8s-client-go-v0260/rest"
 	testutil "github.com/spotmaxtech/k8s-client-go-v0260/util/testing"
+	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
+	apidiscovery "github.com/spotmaxtech/k8s-api-v0260/apidiscovery/v2beta1"
 )
 
 type resourceMapEntry struct {

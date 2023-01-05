@@ -17,7 +17,7 @@ limitations under the License.
 package cache
 
 import (
-	"k8s.io/apimachinery/pkg/util/sets"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/sets"
 	"k8s.io/utils/clock"
 )
 

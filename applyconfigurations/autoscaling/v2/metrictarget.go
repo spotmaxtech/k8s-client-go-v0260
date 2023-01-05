@@ -19,8 +19,8 @@ limitations under the License.
 package v2
 
 import (
-	v2 "k8s.io/api/autoscaling/v2"
-	resource "k8s.io/apimachinery/pkg/api/resource"
+	v2 "github.com/spotmaxtech/k8s-api-v0260/autoscaling/v2"
+	resource "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/api/resource"
 )
 
 // MetricTargetApplyConfiguration represents an declarative configuration of the MetricTarget type for use

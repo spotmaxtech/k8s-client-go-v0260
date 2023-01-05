@@ -24,7 +24,7 @@ import (
 
 	"k8s.io/klog/v2"
 
-	"k8s.io/apimachinery/pkg/util/net"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/net"
 )
 
 // WarningHandler is an interface for handling warning headers

@@ -22,9 +22,9 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/spotmaxtech/k8s-api-v0260/core/v1"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
 	corev1client "github.com/spotmaxtech/k8s-client-go-v0260/kubernetes/typed/core/v1"
-	"k8s.io/api/core/v1"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 
 // TODO: This is almost a exact replica of Endpoints lock.

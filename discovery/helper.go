@@ -19,11 +19,11 @@ package discovery
 import (
 	"fmt"
 
-	apierrors "k8s.io/apimachinery/pkg/api/errors"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/runtime/schema"
-	"k8s.io/apimachinery/pkg/util/sets"
-	apimachineryversion "k8s.io/apimachinery/pkg/version"
+	apierrors "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/api/errors"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/schema"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/sets"
+	apimachineryversion "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/version"
 )
 
 // IsResourceEnabled queries the server to determine if the resource specified is present on the server.

@@ -26,12 +26,12 @@ import (
 	"testing"
 	"time"
 
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/api/meta"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/sets"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/wait"
 	fcache "github.com/spotmaxtech/k8s-client-go-v0260/tools/cache/testing"
-	v1 "k8s.io/api/core/v1"
-	"k8s.io/apimachinery/pkg/api/meta"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	"k8s.io/apimachinery/pkg/util/sets"
-	"k8s.io/apimachinery/pkg/util/wait"
+	v1 "github.com/spotmaxtech/k8s-api-v0260/core/v1"
 	testingclock "k8s.io/utils/clock/testing"
 )
 

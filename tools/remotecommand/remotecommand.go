@@ -25,8 +25,8 @@ import (
 
 	"k8s.io/klog/v2"
 
-	"k8s.io/apimachinery/pkg/util/httpstream"
-	"k8s.io/apimachinery/pkg/util/remotecommand"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/httpstream"
+	"github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/util/remotecommand"
 	restclient "github.com/spotmaxtech/k8s-client-go-v0260/rest"
 	"github.com/spotmaxtech/k8s-client-go-v0260/transport/spdy"
 )

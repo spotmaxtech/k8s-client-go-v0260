@@ -21,9 +21,9 @@ package fake
 import (
 	"context"
 
-	v1 "k8s.io/api/authorization/v1"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
-	schema "k8s.io/apimachinery/pkg/runtime/schema"
+	v1 "github.com/spotmaxtech/k8s-api-v0260/authorization/v1"
+	metav1 "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/apis/meta/v1"
+	schema "github.com/spotmaxtech/k8s-apimachinery-v0260/pkg/runtime/schema"
 	testing "github.com/spotmaxtech/k8s-client-go-v0260/testing"
 )
 
